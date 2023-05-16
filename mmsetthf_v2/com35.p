@@ -1,0 +1,3 @@
+thf(acom34_ax,axiom,(! [Xph:$o] : (! [Xps:$o] : (! [Xch:$o] : (! [Xth:$o] : (! [Xta:$o] : ((Xph => (Xps => (Xch => (Xth => Xta)))) => (Xph => (Xps => (Xth => (Xch => Xta))))))))))).
+thf(acom45_ax,axiom,(! [Xph:$o] : (! [Xps:$o] : (! [Xch:$o] : (! [Xth:$o] : (! [Xta:$o] : (! [Xet:$o] : ((Xph => (Xps => (Xch => (Xth => (Xta => Xet))))) => (Xph => (Xps => (Xch => (Xta => (Xth => Xet))))))))))))).
+thf(ccom35_conj,conjecture,(! [Xph:$o] : (! [Xps:$o] : (! [Xch:$o] : (! [Xth:$o] : (! [Xta:$o] : (! [Xet:$o] : ((Xph => (Xps => (Xch => (Xth => (Xta => Xet))))) => (Xph => (Xps => (Xta => (Xth => (Xch => Xet))))))))))))).

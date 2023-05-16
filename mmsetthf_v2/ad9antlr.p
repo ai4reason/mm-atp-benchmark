@@ -1,0 +1,3 @@
+thf(aad8antr_ax,axiom,(! [Xph:$o] : (! [Xps:$o] : (! [Xch:$o] : (! [Xth:$o] : (! [Xta:$o] : (! [Xet:$o] : (! [Xze:$o] : (! [Xsi:$o] : (! [Xrh:$o] : (! [Xmu:$o] : ((Xph => Xps) => (((((((((Xph & Xch) & Xth) & Xta) & Xet) & Xze) & Xsi) & Xrh) & Xmu) => Xps))))))))))))).
+thf(aadantl_ax,axiom,(! [Xph:$o] : (! [Xps:$o] : (! [Xch:$o] : ((Xph => Xps) => ((Xch & Xph) => Xps)))))).
+thf(cad9antlr_conj,conjecture,(! [Xph:$o] : (! [Xps:$o] : (! [Xch:$o] : (! [Xth:$o] : (! [Xta:$o] : (! [Xet:$o] : (! [Xze:$o] : (! [Xsi:$o] : (! [Xrh:$o] : (! [Xmu:$o] : (! [Xla:$o] : ((Xph => Xps) => ((((((((((Xch & Xph) & Xth) & Xta) & Xet) & Xze) & Xsi) & Xrh) & Xmu) & Xla) => Xps)))))))))))))).

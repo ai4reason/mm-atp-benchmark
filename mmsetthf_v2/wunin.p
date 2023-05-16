@@ -1,0 +1,10 @@
+thf(cwcel_tp,type,(cwcel : (($i > $o) > (($i > $o) > $o)))).
+thf(ccwun_tp,type,(ccwun : ($i > $o))).
+thf(ccin_tp,type,(ccin : (($i > $o) > (($i > $o) > ($i > $o))))).
+thf(cwss_tp,type,(cwss : (($i > $o) > (($i > $o) > $o)))).
+thf(ccpw_tp,type,(ccpw : (($i > $o) > ($i > $o)))).
+thf(awunss_ax,axiom,(! [Xph:$o] : (! [XA2:($i > $o)] : (! [XB2:($i > $o)] : (! [XU:($i > $o)] : ((Xph => (cwcel @ XU @ ccwun)) => ((Xph => (cwcel @ XA2 @ XU)) => ((Xph => (cwss @ XB2 @ XA2)) => (Xph => (cwcel @ XB2 @ XU)))))))))).
+thf(aa1i_ax,axiom,(! [Xph:$o] : (! [Xps:$o] : (Xph => (Xps => Xph))))).
+thf(ccv_tp,type,(ccv : ($i > ($i > $o)))).
+thf(ainss1_ax,axiom,(! [XA2:($i > $o)] : (! [XB2:($i > $o)] : (cwss @ (ccin @ XA2 @ XB2) @ XA2)))).
+thf(cwunin_conj,conjecture,(! [Xph:$o] : (! [XA2:($i > $o)] : (! [XB2:($i > $o)] : (! [XU:($i > $o)] : ((Xph => (cwcel @ XU @ ccwun)) => ((Xph => (cwcel @ XA2 @ XU)) => (Xph => (cwcel @ (ccin @ XA2 @ XB2) @ XU))))))))).

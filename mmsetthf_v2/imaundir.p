@@ -1,0 +1,17 @@
+thf(ccima_tp,type,(ccima : (($i > $o) > (($i > $o) > ($i > $o))))).
+thf(ccun_tp,type,(ccun : (($i > $o) > (($i > $o) > ($i > $o))))).
+thf(ccrn_tp,type,(ccrn : (($i > $o) > ($i > $o)))).
+thf(ccres_tp,type,(ccres : (($i > $o) > (($i > $o) > ($i > $o))))).
+thf(aeqtr4i_ax,axiom,(! [XA2:($i > $o)] : (! [XB2:($i > $o)] : (! [XC:($i > $o)] : ((XA2 = XB2) => ((XC = XB2) => (XA2 = XC))))))).
+thf(a_3eqtri_ax,axiom,(! [XA2:($i > $o)] : (! [XB2:($i > $o)] : (! [XC:($i > $o)] : (! [XD:($i > $o)] : ((XA2 = XB2) => ((XB2 = XC) => ((XC = XD) => (XA2 = XD))))))))).
+thf(adf_ima_ax,axiom,(! [XA2:($i > $o)] : (! [XB2:($i > $o)] : ((ccima @ XA2 @ XB2) = (ccrn @ (ccres @ XA2 @ XB2)))))).
+thf(arneqi_ax,axiom,(! [XA2:($i > $o)] : (! [XB2:($i > $o)] : ((XA2 = XB2) => ((ccrn @ XA2) = (ccrn @ XB2)))))).
+thf(ccvv_tp,type,(ccvv : ($i > $o))).
+thf(ccxp_tp,type,(ccxp : (($i > $o) > (($i > $o) > ($i > $o))))).
+thf(ccin_tp,type,(ccin : (($i > $o) > (($i > $o) > ($i > $o))))).
+thf(aresundir_ax,axiom,(! [XA2:($i > $o)] : (! [XB2:($i > $o)] : (! [XC:($i > $o)] : ((ccres @ (ccun @ XA2 @ XB2) @ XC) = (ccun @ (ccres @ XA2 @ XC) @ (ccres @ XB2 @ XC))))))).
+thf(cccnv_tp,type,(cccnv : (($i > $o) > ($i > $o)))).
+thf(ccdm_tp,type,(ccdm : (($i > $o) > ($i > $o)))).
+thf(arnun_ax,axiom,(! [XA2:($i > $o)] : (! [XB2:($i > $o)] : ((ccrn @ (ccun @ XA2 @ XB2)) = (ccun @ (ccrn @ XA2) @ (ccrn @ XB2)))))).
+thf(auneq12i_ax,axiom,(! [XA2:($i > $o)] : (! [XB2:($i > $o)] : (! [XC:($i > $o)] : (! [XD:($i > $o)] : ((XA2 = XB2) => ((XC = XD) => ((ccun @ XA2 @ XC) = (ccun @ XB2 @ XD))))))))).
+thf(cimaundir_conj,conjecture,(! [XA2:($i > $o)] : (! [XB2:($i > $o)] : (! [XC:($i > $o)] : ((ccima @ (ccun @ XA2 @ XB2) @ XC) = (ccun @ (ccima @ XA2 @ XC) @ (ccima @ XB2 @ XC))))))).

@@ -1,0 +1,5 @@
+thf(anf5ri_thm,axiom,(! [Xph:($i > $o)] : (((? [X:$i] : ((^ [Xx3:$i] : (Xph @ Xx3)) @ X)) => (! [X:$i] : ((^ [Xx3:$i] : (Xph @ Xx3)) @ X))) => (! [Xx3:$i] : ((Xph @ Xx3) => (! [Xx3:$i] : (Xph @ Xx3))))))).
+thf(ccv_tp,type,(ccv : ($i > ($i > $o)))).
+thf(anfsb_b_thm,axiom,(! [Xph:($i > ($i > $o))] : ((! [Xx3:$i] : ((? [X:$i] : ((^ [Xz:$i] : (Xph @ Xx3 @ Xz)) @ X)) => (! [X:$i] : ((^ [Xz:$i] : (Xph @ Xx3 @ Xz)) @ X)))) => (! [Xx3:$i] : ((? [X:$i] : ((^ [Xz:$i] : ((^ [Xx3:$i] : (Xph @ Xx3 @ Xz)) @ Xx3)) @ X)) => (! [X:$i] : ((^ [Xz:$i] : ((^ [Xx3:$i] : (Xph @ Xx3 @ Xz)) @ Xx3)) @ X))))))).
+thf(anf5i_thm,axiom,(! [Xph:($i > $o)] : ((! [Xx3:$i] : ((Xph @ Xx3) => (! [Xx3:$i] : (Xph @ Xx3)))) => ((? [X:$i] : ((^ [Xx3:$i] : (Xph @ Xx3)) @ X)) => (! [X:$i] : ((^ [Xx3:$i] : (Xph @ Xx3)) @ X)))))).
+thf(chbsb_b_conj,conjecture,(! [Xph:($i > ($i > $o))] : ((! [Xx3:$i] : (! [Xz:$i] : ((Xph @ Xx3 @ Xz) => (! [Xz:$i] : (Xph @ Xx3 @ Xz))))) => (! [Xx3:$i] : (! [Xz:$i] : (((^ [Xx3:$i] : (Xph @ Xx3 @ Xz)) @ Xx3) => (! [Xz:$i] : ((^ [Xx3:$i] : (Xph @ Xx3 @ Xz)) @ Xx3)))))))).

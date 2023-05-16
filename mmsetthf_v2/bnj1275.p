@@ -1,0 +1,5 @@
+thf(cw3a_tp,type,(cw3a : ($o > ($o > ($o > $o))))).
+thf(abnj1198_ax,axiom,(! [Xph:($i > $o)] : (! [Xps:($i > $o)] : (! [Xbnjwpsm:($i > $o)] : ((! [Xx3:$i] : ((Xph @ Xx3) => (? [Xx3:$i] : (Xps @ Xx3)))) => ((! [Xx3:$i] : ((Xbnjwpsm @ Xx3) <=> (Xps @ Xx3))) => (! [Xx3:$i] : ((Xph @ Xx3) => (? [Xx3:$i] : (Xbnjwpsm @ Xx3)))))))))).
+thf(abnj596_ax,axiom,(! [Xph:($i > $o)] : (! [Xps:($i > $o)] : ((! [Xx3:$i] : ((Xph @ Xx3) => (! [Xx3:$i] : (Xph @ Xx3)))) => ((! [Xx3:$i] : ((Xph @ Xx3) => (? [Xx3:$i] : (Xps @ Xx3)))) => (! [Xx3:$i] : ((Xph @ Xx3) => (? [Xx3:$i] : ((Xph @ Xx3) & (Xps @ Xx3)))))))))).
+thf(a_3anass_ax,axiom,(! [Xph:$o] : (! [Xps:$o] : (! [Xch:$o] : ((cw3a @ Xph @ Xps @ Xch) <=> (Xph & (Xps & Xch))))))).
+thf(cbnj1275_conj,conjecture,(! [Xph:($i > $o)] : (! [Xps:($i > $o)] : (! [Xch:($i > $o)] : ((! [Xx3:$i] : ((Xph @ Xx3) => (? [Xx3:$i] : ((Xps @ Xx3) & (Xch @ Xx3))))) => ((! [Xx3:$i] : ((Xph @ Xx3) => (! [Xx3:$i] : (Xph @ Xx3)))) => (! [Xx3:$i] : ((Xph @ Xx3) => (? [Xx3:$i] : (cw3a @ (Xph @ Xx3) @ (Xps @ Xx3) @ (Xch @ Xx3))))))))))).

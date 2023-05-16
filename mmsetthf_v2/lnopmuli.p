@@ -1,0 +1,13 @@
+thf(cwcel_tp,type,(cwcel : (($i > $o) > (($i > $o) > $o)))).
+thf(cclo_tp,type,(cclo : ($i > $o))).
+thf(ccc_tp,type,(ccc : ($i > $o))).
+thf(cchil_tp,type,(cchil : ($i > $o))).
+thf(ccfv_tp,type,(ccfv : (($i > $o) > (($i > $o) > ($i > $o))))).
+thf(cco_tp,type,(cco : (($i > $o) > (($i > $o) > (($i > $o) > ($i > $o)))))).
+thf(ccsm_tp,type,(ccsm : ($i > $o))).
+thf(cw3a_tp,type,(cw3a : ($o > ($o > ($o > $o))))).
+thf(amp3an1_ax,axiom,(! [Xph:$o] : (! [Xps:$o] : (! [Xch:$o] : (! [Xth:$o] : (Xph => (((cw3a @ Xph @ Xps @ Xch) => Xth) => ((Xps & Xch) => Xth)))))))).
+thf(ccva_tp,type,(ccva : ($i > $o))).
+thf(cc0v_tp,type,(cc0v : ($i > $o))).
+thf(alnopmul_ax,axiom,(! [XA2:($i > $o)] : (! [XB2:($i > $o)] : (! [XT:($i > $o)] : ((cw3a @ (cwcel @ XT @ cclo) @ (cwcel @ XA2 @ ccc) @ (cwcel @ XB2 @ cchil)) => ((ccfv @ (cco @ XA2 @ XB2 @ ccsm) @ XT) = (cco @ XA2 @ (ccfv @ XB2 @ XT) @ ccsm))))))).
+thf(clnopmuli_conj,conjecture,(! [XA2:($i > $o)] : (! [XB2:($i > $o)] : (! [XT:($i > $o)] : ((cwcel @ XT @ cclo) => (((cwcel @ XA2 @ ccc) & (cwcel @ XB2 @ cchil)) => ((ccfv @ (cco @ XA2 @ XB2 @ ccsm) @ XT) = (cco @ XA2 @ (ccfv @ XB2 @ XT) @ ccsm)))))))).

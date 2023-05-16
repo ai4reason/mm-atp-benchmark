@@ -1,0 +1,4 @@
+thf(ccv_tp,type,(ccv : ($i > ($i > $o)))).
+thf(acbvexv_thm,axiom,(! [Xph:($i > $o)] : (! [Xps:($i > $o)] : ((! [Xx3:$i] : (! [Xy1:$i] : (((ccv @ Xx3) = (ccv @ Xy1)) => ((Xph @ Xx3) <=> (Xps @ Xy1))))) => ((? [Xx3:$i] : (Xph @ Xx3)) <=> (? [Xy1:$i] : (Xps @ Xy1))))))).
+thf(acbvexdva_thm,axiom,(! [Xph:$o] : (! [Xps:($i > $o)] : (! [Xch:($i > $o)] : ((! [Xx3:$i] : (! [Xy1:$i] : ((Xph & ((ccv @ Xx3) = (ccv @ Xy1))) => ((Xps @ Xx3) <=> (Xch @ Xy1))))) => (Xph => ((? [Xx3:$i] : (Xps @ Xx3)) <=> (? [Xy1:$i] : (Xch @ Xy1))))))))).
+thf(ccbvex2v_conj,conjecture,(! [Xph:($i > ($i > $o))] : (! [Xps:($i > ($i > $o))] : ((! [Xx3:$i] : (! [Xy1:$i] : (! [Xz:$i] : (! [Xw:$i] : ((((ccv @ Xx3) = (ccv @ Xz)) & ((ccv @ Xy1) = (ccv @ Xw))) => ((Xph @ Xx3 @ Xy1) <=> (Xps @ Xz @ Xw))))))) => ((? [Xx3:$i] : (? [Xy1:$i] : (Xph @ Xx3 @ Xy1))) <=> (? [Xz:$i] : (? [Xw:$i] : (Xps @ Xz @ Xw)))))))).

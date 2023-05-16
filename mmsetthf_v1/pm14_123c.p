@@ -1,0 +1,13 @@
+thf(cwi_tp,type,(cwi : ($o > ($o > $o)))).
+thf(cwa_tp,type,(cwa : ($o > ($o > $o)))).
+thf(cwcel_tp,type,(cwcel : (($i > $o) > (($i > $o) > $o)))).
+thf(cwb_tp,type,(cwb : ($o > ($o > $o)))).
+thf(cwal_tp,type,(cwal : (($i > $o) > $o))).
+thf(cwceq_tp,type,(cwceq : (($i > $o) > (($i > $o) > $o)))).
+thf(ccv_tp,type,(ccv : ($i > ($i > $o)))).
+thf(cwex_tp,type,(cwex : (($i > $o) > $o))).
+thf(cwsbc_tp,type,(cwsbc : (($i > $o) > (($i > $o) > $o)))).
+thf(abitrd_thm,axiom,(! [Xph:$o] : (! [Xps:$o] : (! [Xch:$o] : (! [Xth:$o] : ((cwi @ Xph @ (cwb @ Xps @ Xch)) => ((cwi @ Xph @ (cwb @ Xch @ Xth)) => (cwi @ Xph @ (cwb @ Xps @ Xth))))))))).
+thf(apm14_123a_thm,axiom,(! [Xph:($i > ($i > $o))] : (! [XA2:($i > $o)] : (! [XB2:($i > $o)] : (! [XV:($i > ($i > ($i > $o)))] : (! [XW:($i > ($i > ($i > $o)))] : (! [Xz:$i] : (! [Xw:$i] : (cwi @ (cwa @ (cwcel @ XA2 @ (XV @ Xz @ Xw)) @ (cwcel @ XB2 @ (XW @ Xz @ Xw))) @ (cwb @ (cwal @ (^ [Xz:$i] : (cwal @ (^ [Xw:$i] : (cwb @ (Xph @ Xz @ Xw) @ (cwa @ (cwceq @ (ccv @ Xz) @ XA2) @ (cwceq @ (ccv @ Xw) @ XB2))))))) @ (cwa @ (cwal @ (^ [Xz:$i] : (cwal @ (^ [Xw:$i] : (cwi @ (Xph @ Xz @ Xw) @ (cwa @ (cwceq @ (ccv @ Xz) @ XA2) @ (cwceq @ (ccv @ Xw) @ XB2))))))) @ (cwsbc @ (^ [Xz:$i] : (cwsbc @ (^ [Xw:$i] : (Xph @ Xz @ Xw)) @ XB2)) @ XA2)))))))))))).
+thf(apm14_123b_thm,axiom,(! [Xph:($i > ($i > $o))] : (! [XA2:($i > $o)] : (! [XB2:($i > $o)] : (! [XV:($i > ($i > ($i > $o)))] : (! [XW:($i > ($i > ($i > $o)))] : (! [Xz:$i] : (! [Xw:$i] : (cwi @ (cwa @ (cwcel @ XA2 @ (XV @ Xz @ Xw)) @ (cwcel @ XB2 @ (XW @ Xz @ Xw))) @ (cwb @ (cwa @ (cwal @ (^ [Xz:$i] : (cwal @ (^ [Xw:$i] : (cwi @ (Xph @ Xz @ Xw) @ (cwa @ (cwceq @ (ccv @ Xz) @ XA2) @ (cwceq @ (ccv @ Xw) @ XB2))))))) @ (cwsbc @ (^ [Xz:$i] : (cwsbc @ (^ [Xw:$i] : (Xph @ Xz @ Xw)) @ XB2)) @ XA2)) @ (cwa @ (cwal @ (^ [Xz:$i] : (cwal @ (^ [Xw:$i] : (cwi @ (Xph @ Xz @ Xw) @ (cwa @ (cwceq @ (ccv @ Xz) @ XA2) @ (cwceq @ (ccv @ Xw) @ XB2))))))) @ (cwex @ (^ [Xz:$i] : (cwex @ (^ [Xw:$i] : (Xph @ Xz @ Xw)))))))))))))))).
+thf(cpm14_123c_conj,conjecture,(! [Xph:($i > ($i > $o))] : (! [XA2:($i > $o)] : (! [XB2:($i > $o)] : (! [XV:($i > ($i > ($i > $o)))] : (! [XW:($i > ($i > ($i > $o)))] : (! [Xz:$i] : (! [Xw:$i] : (cwi @ (cwa @ (cwcel @ XA2 @ (XV @ Xz @ Xw)) @ (cwcel @ XB2 @ (XW @ Xz @ Xw))) @ (cwb @ (cwal @ (^ [Xz:$i] : (cwal @ (^ [Xw:$i] : (cwb @ (Xph @ Xz @ Xw) @ (cwa @ (cwceq @ (ccv @ Xz) @ XA2) @ (cwceq @ (ccv @ Xw) @ XB2))))))) @ (cwa @ (cwal @ (^ [Xz:$i] : (cwal @ (^ [Xw:$i] : (cwi @ (Xph @ Xz @ Xw) @ (cwa @ (cwceq @ (ccv @ Xz) @ XA2) @ (cwceq @ (ccv @ Xw) @ XB2))))))) @ (cwex @ (^ [Xz:$i] : (cwex @ (^ [Xw:$i] : (Xph @ Xz @ Xw)))))))))))))))).

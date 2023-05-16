@@ -1,0 +1,3 @@
+thf(aanmp_ax,axiom,(! [Xph:$o] : (! [Xps:$o] : (Xph => (((~ Xph) | Xps) => Xps))))).
+thf(arb_ax1_ax,axiom,(! [Xph:$o] : (! [Xps:$o] : (! [Xch:$o] : ((~ ((~ Xps) | Xch)) | ((~ (Xph | Xps)) | (Xph | Xch))))))).
+thf(crbsyl_conj,conjecture,(! [Xph:$o] : (! [Xps:$o] : (! [Xch:$o] : (((~ Xps) | Xch) => ((Xph | Xps) => (Xph | Xch))))))).

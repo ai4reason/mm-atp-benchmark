@@ -1,0 +1,4 @@
+thf(ccif_tp,type,(ccif : ($o > (($i > $o) > (($i > $o) > ($i > $o)))))).
+thf(aanidms_ax,axiom,(! [Xph:$o] : (! [Xps:$o] : (((Xph & Xph) => Xps) => (Xph => Xps))))).
+thf(adedth2h_ax,axiom,(! [Xph:$o] : (! [Xps:$o] : (! [Xch:$o] : (! [Xth:$o] : (! [Xta:$o] : (! [XA2:($i > $o)] : (! [XB2:($i > $o)] : (! [XC:($i > $o)] : (! [XD:($i > $o)] : (((XA2 = (ccif @ Xph @ XA2 @ XC)) => (Xch <=> Xth)) => (((XB2 = (ccif @ Xps @ XB2 @ XD)) => (Xth <=> Xta)) => (Xta => ((Xph & Xps) => Xch)))))))))))))).
+thf(cdedth2v_conj,conjecture,(! [Xph:$o] : (! [Xps:$o] : (! [Xch:$o] : (! [Xth:$o] : (! [XA2:($i > $o)] : (! [XB2:($i > $o)] : (! [XC:($i > $o)] : (! [XD:($i > $o)] : (((XA2 = (ccif @ Xph @ XA2 @ XC)) => (Xps <=> Xch)) => (((XB2 = (ccif @ Xph @ XB2 @ XD)) => (Xch <=> Xth)) => (Xth => (Xph => Xps))))))))))))).

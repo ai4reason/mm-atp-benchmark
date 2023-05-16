@@ -1,0 +1,4 @@
+thf(cwi_tp,type,(cwi : ($o > ($o > $o)))).
+thf(acom24_thm,axiom,(! [Xph:$o] : (! [Xps:$o] : (! [Xch:$o] : (! [Xth:$o] : (! [Xta:$o] : ((cwi @ Xph @ (cwi @ Xps @ (cwi @ Xch @ (cwi @ Xth @ Xta)))) => (cwi @ Xph @ (cwi @ Xth @ (cwi @ Xch @ (cwi @ Xps @ Xta))))))))))).
+thf(acom45_thm,axiom,(! [Xph:$o] : (! [Xps:$o] : (! [Xch:$o] : (! [Xth:$o] : (! [Xta:$o] : (! [Xet:$o] : ((cwi @ Xph @ (cwi @ Xps @ (cwi @ Xch @ (cwi @ Xth @ (cwi @ Xta @ Xet))))) => (cwi @ Xph @ (cwi @ Xps @ (cwi @ Xch @ (cwi @ Xta @ (cwi @ Xth @ Xet))))))))))))).
+thf(ccom25_conj,conjecture,(! [Xph:$o] : (! [Xps:$o] : (! [Xch:$o] : (! [Xth:$o] : (! [Xta:$o] : (! [Xet:$o] : ((cwi @ Xph @ (cwi @ Xps @ (cwi @ Xch @ (cwi @ Xth @ (cwi @ Xta @ Xet))))) => (cwi @ Xph @ (cwi @ Xta @ (cwi @ Xch @ (cwi @ Xth @ (cwi @ Xps @ Xet))))))))))))).

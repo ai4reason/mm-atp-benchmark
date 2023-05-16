@@ -1,0 +1,9 @@
+thf(cwcel_tp,type,(cwcel : (($i > $o) > (($i > $o) > $o)))).
+thf(ccvv_tp,type,(ccvv : ($i > $o))).
+thf(ccv_tp,type,(ccv : ($i > ($i > $o)))).
+thf(acon4bii_ax,axiom,(! [Xph:$o] : (! [Xps:$o] : (((~ Xph) <=> (~ Xps)) => (Xph <=> Xps))))).
+thf(a_3bitr3i_ax,axiom,(! [Xph:$o] : (! [Xps:$o] : (! [Xch:$o] : (! [Xth:$o] : ((Xph <=> Xps) => ((Xph <=> Xch) => ((Xps <=> Xth) => (Xch <=> Xth))))))))).
+thf(agencbvex_ax,axiom,(! [Xph:($i > $o)] : (! [Xps:($i > $o)] : (! [Xch:($i > $o)] : (! [Xth:($i > $o)] : (! [XA2:($i > ($i > $o))] : ((! [Xx3:$i] : (cwcel @ (XA2 @ Xx3) @ ccvv)) => ((! [Xx3:$i] : (! [Xy1:$i] : (((XA2 @ Xx3) = (ccv @ Xy1)) => ((Xph @ Xx3) <=> (Xps @ Xy1))))) => ((! [Xx3:$i] : (! [Xy1:$i] : (((XA2 @ Xx3) = (ccv @ Xy1)) => ((Xch @ Xx3) <=> (Xth @ Xy1))))) => ((! [Xy1:$i] : ((Xth @ Xy1) <=> (? [Xx3:$i] : ((Xch @ Xx3) & ((XA2 @ Xx3) = (ccv @ Xy1)))))) => ((? [Xx3:$i] : ((Xch @ Xx3) & (Xph @ Xx3))) <=> (? [Xy1:$i] : ((Xth @ Xy1) & (Xps @ Xy1)))))))))))))).
+thf(anotbid_ax,axiom,(! [Xph:$o] : (! [Xps:$o] : (! [Xch:$o] : ((Xph => (Xps <=> Xch)) => (Xph => ((~ Xps) <=> (~ Xch)))))))).
+thf(aexanali_ax,axiom,(! [Xph:($i > $o)] : (! [Xps:($i > $o)] : ((? [Xx3:$i] : ((Xph @ Xx3) & (~ (Xps @ Xx3)))) <=> (~ (! [Xx3:$i] : ((Xph @ Xx3) => (Xps @ Xx3)))))))).
+thf(cgencbval_conj,conjecture,(! [Xph:($i > $o)] : (! [Xps:($i > $o)] : (! [Xch:($i > $o)] : (! [Xth:($i > $o)] : (! [XA2:($i > ($i > $o))] : ((! [Xx3:$i] : (cwcel @ (XA2 @ Xx3) @ ccvv)) => ((! [Xx3:$i] : (! [Xy1:$i] : (((XA2 @ Xx3) = (ccv @ Xy1)) => ((Xph @ Xx3) <=> (Xps @ Xy1))))) => ((! [Xx3:$i] : (! [Xy1:$i] : (((XA2 @ Xx3) = (ccv @ Xy1)) => ((Xch @ Xx3) <=> (Xth @ Xy1))))) => ((! [Xy1:$i] : ((Xth @ Xy1) <=> (? [Xx3:$i] : ((Xch @ Xx3) & ((XA2 @ Xx3) = (ccv @ Xy1)))))) => ((! [Xx3:$i] : ((Xch @ Xx3) => (Xph @ Xx3))) <=> (! [Xy1:$i] : ((Xth @ Xy1) => (Xps @ Xy1)))))))))))))).

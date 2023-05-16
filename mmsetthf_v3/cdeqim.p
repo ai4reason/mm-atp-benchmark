@@ -1,0 +1,6 @@
+thf(cwcdeq_tp,type,(cwcdeq : ($o > ($i > ($i > $o))))).
+thf(ccv_tp,type,(ccv : ($i > ($i > $o)))).
+thf(acdeqi_thm,axiom,(! [Xph:($i > ($i > $o))] : ((! [Xx3:$i] : (! [Xy1:$i] : (((ccv @ Xx3) = (ccv @ Xy1)) => (Xph @ Xx3 @ Xy1)))) => (! [Xx3:$i] : (! [Xy1:$i] : (cwcdeq @ (Xph @ Xx3 @ Xy1) @ Xx3 @ Xy1)))))).
+thf(aimbi12d_thm,axiom,(! [Xph:$o] : (! [Xps:$o] : (! [Xch:$o] : (! [Xth:$o] : (! [Xta:$o] : ((Xph => (Xps <=> Xch)) => ((Xph => (Xth <=> Xta)) => (Xph => ((Xps => Xth) <=> (Xch => Xta))))))))))).
+thf(acdeqri_thm,axiom,(! [Xph:($i > ($i > $o))] : ((! [Xx3:$i] : (! [Xy1:$i] : (cwcdeq @ (Xph @ Xx3 @ Xy1) @ Xx3 @ Xy1))) => (! [Xx3:$i] : (! [Xy1:$i] : (((ccv @ Xx3) = (ccv @ Xy1)) => (Xph @ Xx3 @ Xy1))))))).
+thf(ccdeqim_conj,conjecture,(! [Xph:($i > ($i > $o))] : (! [Xps:($i > ($i > $o))] : (! [Xch:($i > ($i > $o))] : (! [Xth:($i > ($i > $o))] : ((! [Xx3:$i] : (! [Xy1:$i] : (cwcdeq @ ((Xph @ Xx3 @ Xy1) <=> (Xps @ Xx3 @ Xy1)) @ Xx3 @ Xy1))) => ((! [Xx3:$i] : (! [Xy1:$i] : (cwcdeq @ ((Xch @ Xx3 @ Xy1) <=> (Xth @ Xx3 @ Xy1)) @ Xx3 @ Xy1))) => (! [Xx3:$i] : (! [Xy1:$i] : (cwcdeq @ (((Xph @ Xx3 @ Xy1) => (Xch @ Xx3 @ Xy1)) <=> ((Xps @ Xx3 @ Xy1) => (Xth @ Xx3 @ Xy1))) @ Xx3 @ Xy1)))))))))).

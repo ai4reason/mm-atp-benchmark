@@ -1,0 +1,3 @@
+thf(aee33an_thm,axiom,(! [Xph:$o] : (! [Xps:$o] : (! [Xch:$o] : (! [Xth:$o] : (! [Xta:$o] : (! [Xet:$o] : ((Xph => (Xps => (Xch => Xth))) => ((Xph => (Xps => (Xch => Xta))) => (((Xth & Xta) => Xet) => (Xph => (Xps => (Xch => Xet))))))))))))).
+thf(aa1dd_thm,axiom,(! [Xph:$o] : (! [Xps:$o] : (! [Xch:$o] : (! [Xth:$o] : ((Xph => (Xps => Xch)) => (Xph => (Xps => (Xth => Xch))))))))).
+thf(cee23an_conj,conjecture,(! [Xph:$o] : (! [Xps:$o] : (! [Xch:$o] : (! [Xth:$o] : (! [Xta:$o] : (! [Xet:$o] : ((Xph => (Xps => Xch)) => ((Xph => (Xps => (Xth => Xta))) => (((Xch & Xta) => Xet) => (Xph => (Xps => (Xth => Xet))))))))))))).

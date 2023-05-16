@@ -1,0 +1,4 @@
+thf(asyl8ib_ax,axiom,(! [Xph:$o] : (! [Xps:$o] : (! [Xch:$o] : (! [Xth:$o] : (! [Xta:$o] : ((Xph => (Xps => (Xch => Xth))) => ((Xth <=> Xta) => (Xph => (Xps => (Xch => Xta))))))))))).
+thf(asylgt_ax,axiom,(! [Xph:($i > $o)] : (! [Xps:($i > $o)] : (! [Xch:($i > $o)] : (! [Xx3:$i] : ((! [Xx3:$i] : ((Xps @ Xx3) => (Xch @ Xx3))) => (((Xph @ Xx3) => (! [Xx3:$i] : (Xps @ Xx3))) => ((Xph @ Xx3) => (! [Xx3:$i] : (Xch @ Xx3)))))))))).
+thf(aalnex_ax,axiom,(! [Xph:($i > $o)] : ((! [Xx3:$i] : (~ (Xph @ Xx3))) <=> (~ (? [Xx3:$i] : (Xph @ Xx3)))))).
+thf(cbj_nexdh_conj,conjecture,(! [Xph:($i > $o)] : (! [Xps:($i > $o)] : (! [Xch:($i > $o)] : (! [Xx3:$i] : ((! [Xx3:$i] : ((Xph @ Xx3) => (~ (Xps @ Xx3)))) => (((Xch @ Xx3) => (! [Xx3:$i] : (Xph @ Xx3))) => ((Xch @ Xx3) => (~ (? [Xx3:$i] : (Xps @ Xx3))))))))))).

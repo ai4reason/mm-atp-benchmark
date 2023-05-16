@@ -1,0 +1,7 @@
+thf(cwi_tp,type,(cwi : ($o > ($o > $o)))).
+thf(cwa_tp,type,(cwa : ($o > ($o > $o)))).
+thf(cw3o_tp,type,(cw3o : ($o > ($o > ($o > $o))))).
+thf(acom12_thm,axiom,(! [Xph:$o] : (! [Xps:$o] : (! [Xch:$o] : ((cwi @ Xph @ (cwi @ Xps @ Xch)) => (cwi @ Xps @ (cwi @ Xph @ Xch))))))).
+thf(a_3jaoian_thm,axiom,(! [Xph:$o] : (! [Xps:$o] : (! [Xch:$o] : (! [Xth:$o] : (! [Xta:$o] : ((cwi @ (cwa @ Xph @ Xps) @ Xch) => ((cwi @ (cwa @ Xth @ Xps) @ Xch) => ((cwi @ (cwa @ Xta @ Xps) @ Xch) => (cwi @ (cwa @ (cw3o @ Xph @ Xth @ Xta) @ Xps) @ Xch)))))))))).
+thf(a_3jaodan_thm,axiom,(! [Xph:$o] : (! [Xps:$o] : (! [Xch:$o] : (! [Xth:$o] : (! [Xta:$o] : ((cwi @ (cwa @ Xph @ Xps) @ Xch) => ((cwi @ (cwa @ Xph @ Xth) @ Xch) => ((cwi @ (cwa @ Xph @ Xta) @ Xch) => (cwi @ (cwa @ Xph @ (cw3o @ Xps @ Xth @ Xta)) @ Xch)))))))))).
+thf(c_3ccased_conj,conjecture,(! [Xph:$o] : (! [Xps:$o] : (! [Xch:$o] : (! [Xth:$o] : (! [Xta:$o] : (! [Xet:$o] : (! [Xze:$o] : (! [Xsi:$o] : ((cwi @ Xph @ (cwi @ (cwa @ Xch @ Xet) @ Xps)) => ((cwi @ Xph @ (cwi @ (cwa @ Xch @ Xze) @ Xps)) => ((cwi @ Xph @ (cwi @ (cwa @ Xch @ Xsi) @ Xps)) => ((cwi @ Xph @ (cwi @ (cwa @ Xth @ Xet) @ Xps)) => ((cwi @ Xph @ (cwi @ (cwa @ Xth @ Xze) @ Xps)) => ((cwi @ Xph @ (cwi @ (cwa @ Xth @ Xsi) @ Xps)) => ((cwi @ Xph @ (cwi @ (cwa @ Xta @ Xet) @ Xps)) => ((cwi @ Xph @ (cwi @ (cwa @ Xta @ Xze) @ Xps)) => ((cwi @ Xph @ (cwi @ (cwa @ Xta @ Xsi) @ Xps)) => (cwi @ Xph @ (cwi @ (cwa @ (cw3o @ Xch @ Xth @ Xta) @ (cw3o @ Xet @ Xze @ Xsi)) @ Xps)))))))))))))))))))).

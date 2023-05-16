@@ -1,0 +1,3 @@
+thf(asyland_ax,axiom,(! [Xph:$o] : (! [Xps:$o] : (! [Xch:$o] : (! [Xth:$o] : (! [Xta:$o] : ((Xph => (Xps => Xch)) => ((Xph => ((Xch & Xth) => Xta)) => (Xph => ((Xps & Xth) => Xta)))))))))).
+thf(asylan2d_ax,axiom,(! [Xph:$o] : (! [Xps:$o] : (! [Xch:$o] : (! [Xth:$o] : (! [Xta:$o] : ((Xph => (Xps => Xch)) => ((Xph => ((Xth & Xch) => Xta)) => (Xph => ((Xth & Xps) => Xta)))))))))).
+thf(csyl2and_conj,conjecture,(! [Xph:$o] : (! [Xps:$o] : (! [Xch:$o] : (! [Xth:$o] : (! [Xta:$o] : (! [Xet:$o] : ((Xph => (Xps => Xch)) => ((Xph => (Xth => Xta)) => ((Xph => ((Xch & Xta) => Xet)) => (Xph => ((Xps & Xth) => Xet)))))))))))).

@@ -1,0 +1,7 @@
+thf(ccv_tp,type,(ccv : ($i > ($i > $o)))).
+thf(cwcel_tp,type,(cwcel : (($i > $o) > (($i > $o) > $o)))).
+thf(cwrmo_tp,type,(cwrmo : (($i > $o) > (($i > ($i > $o)) > $o)))).
+thf(ampbird_thm,axiom,(! [Xph:$o] : (! [Xps:$o] : (! [Xch:$o] : ((Xph => Xch) => ((Xph => (Xps <=> Xch)) => (Xph => Xps))))))).
+thf(cwmo_tp,type,(cwmo : (($i > $o) > $o))).
+thf(armob2_thm,axiom,(! [Xph:($i > $o)] : (! [Xps:($i > $o)] : (! [Xch:$o] : (! [XA2:($i > $o)] : (! [XB2:($i > $o)] : ((! [Xx3:$i] : (((ccv @ Xx3) = XB2) => ((Xps @ Xx3) <=> Xch))) => ((! [Xx3:$i] : ((Xph @ Xx3) => (cwcel @ XB2 @ XA2))) => ((! [Xx3:$i] : ((Xph @ Xx3) => (cwrmo @ (^ [Xx3:$i] : (Xps @ Xx3)) @ (^ [Xx3:$i] : XA2)))) => ((! [Xx3:$i] : ((Xph @ Xx3) => (cwcel @ (ccv @ Xx3) @ XA2))) => ((! [Xx3:$i] : ((Xph @ Xx3) => (Xps @ Xx3))) => (! [Xx3:$i] : ((Xph @ Xx3) => (((ccv @ Xx3) = XB2) <=> Xch)))))))))))))).
+thf(crmoi2_conj,conjecture,(! [Xph:($i > $o)] : (! [Xps:($i > $o)] : (! [Xch:$o] : (! [XA2:($i > $o)] : (! [XB2:($i > $o)] : ((! [Xx3:$i] : (((ccv @ Xx3) = XB2) => ((Xps @ Xx3) <=> Xch))) => ((! [Xx3:$i] : ((Xph @ Xx3) => (cwcel @ XB2 @ XA2))) => ((! [Xx3:$i] : ((Xph @ Xx3) => (cwrmo @ (^ [Xx3:$i] : (Xps @ Xx3)) @ (^ [Xx3:$i] : XA2)))) => ((! [Xx3:$i] : ((Xph @ Xx3) => (cwcel @ (ccv @ Xx3) @ XA2))) => ((! [Xx3:$i] : ((Xph @ Xx3) => (Xps @ Xx3))) => ((! [Xx3:$i] : ((Xph @ Xx3) => Xch)) => (! [Xx3:$i] : ((Xph @ Xx3) => ((ccv @ Xx3) = XB2))))))))))))))).

@@ -1,0 +1,2 @@
+thf(abarbari_ax,axiom,(! [Xph:($i > $o)] : (! [Xps:($i > $o)] : (! [Xch:($i > $o)] : ((! [Xx3:$i] : ((Xph @ Xx3) => (Xps @ Xx3))) => ((! [Xx3:$i] : ((Xch @ Xx3) => (Xph @ Xx3))) => ((? [Xx3:$i] : (Xch @ Xx3)) => (? [Xx3:$i] : ((Xch @ Xx3) & (Xps @ Xx3)))))))))).
+thf(ccelaront_conj,conjecture,(! [Xph:($i > $o)] : (! [Xps:($i > $o)] : (! [Xch:($i > $o)] : ((! [Xx3:$i] : ((Xph @ Xx3) => (~ (Xps @ Xx3)))) => ((! [Xx3:$i] : ((Xch @ Xx3) => (Xph @ Xx3))) => ((? [Xx3:$i] : (Xch @ Xx3)) => (? [Xx3:$i] : ((Xch @ Xx3) & (~ (Xps @ Xx3))))))))))).

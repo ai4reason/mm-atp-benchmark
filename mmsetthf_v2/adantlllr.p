@@ -1,0 +1,2 @@
+thf(aadantl3r_ax,axiom,(! [Xph:$o] : (! [Xps:$o] : (! [Xch:$o] : (! [Xth:$o] : (! [Xta:$o] : (! [Xet:$o] : (((((Xph & Xps) & Xch) & Xth) => Xta) => (((((Xph & Xet) & Xps) & Xch) & Xth) => Xta))))))))).
+thf(cadantlllr_conj,conjecture,(! [Xph:$o] : (! [Xps:$o] : (! [Xch:$o] : (! [Xth:$o] : (! [Xta:$o] : (! [Xet:$o] : (((((Xph & Xps) & Xch) & Xth) => Xta) => (((((Xph & Xet) & Xps) & Xch) & Xth) => Xta))))))))).

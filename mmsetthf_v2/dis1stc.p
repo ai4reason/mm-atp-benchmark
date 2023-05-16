@@ -1,0 +1,55 @@
+thf(cwcel_tp,type,(cwcel : (($i > $o) > (($i > $o) > $o)))).
+thf(ccpw_tp,type,(ccpw : (($i > $o) > ($i > $o)))).
+thf(cc1stc_tp,type,(cc1stc : ($i > $o))).
+thf(cclly_tp,type,(cclly : (($i > $o) > ($i > $o)))).
+thf(cwral_tp,type,(cwral : (($i > $o) > (($i > ($i > $o)) > $o)))).
+thf(ccsn_tp,type,(ccsn : (($i > $o) > ($i > $o)))).
+thf(ccv_tp,type,(ccv : ($i > ($i > $o)))).
+thf(cc2ndc_tp,type,(cc2ndc : ($i > $o))).
+thf(ccfv_tp,type,(ccfv : (($i > $o) > (($i > $o) > ($i > $o))))).
+thf(cctg_tp,type,(cctg : ($i > $o))).
+thf(cctop_tp,type,(cctop : ($i > $o))).
+thf(ccvv_tp,type,(ccvv : ($i > $o))).
+thf(cctb_tp,type,(cctb : ($i > $o))).
+thf(cwbr_tp,type,(cwbr : (($i > $o) > (($i > $o) > (($i > $o) > $o))))).
+thf(ccom_tp,type,(ccom : ($i > $o))).
+thf(ccdom_tp,type,(ccdom : ($i > $o))).
+thf(ccsdm_tp,type,(ccsdm : ($i > $o))).
+thf(ccfn_tp,type,(ccfn : ($i > $o))).
+thf(asyl6eleq_ax,axiom,(! [Xph:$o] : (! [XA2:($i > $o)] : (! [XB2:($i > $o)] : (! [XC:($i > $o)] : ((Xph => (cwcel @ XA2 @ XB2)) => ((XB2 = XC) => (Xph => (cwcel @ XA2 @ XC))))))))).
+thf(ampbiri_ax,axiom,(! [Xph:$o] : (! [Xps:$o] : (! [Xch:$o] : (Xch => ((Xph => (Xps <=> Xch)) => (Xph => Xps))))))).
+thf(argenw_ax,axiom,(! [Xph:($i > $o)] : (! [XA2:($i > ($i > $o))] : ((! [Xx3:$i] : (Xph @ Xx3)) => (cwral @ (^ [Xx3:$i] : (Xph @ Xx3)) @ (^ [Xx3:$i] : (XA2 @ Xx3))))))).
+thf(aax_mp_ax,axiom,(! [Xph:$o] : (! [Xps:$o] : (Xph => ((Xph => Xps) => Xps))))).
+thf(aeqeltrri_ax,axiom,(! [XA2:($i > $o)] : (! [XB2:($i > $o)] : (! [XC:($i > $o)] : ((XA2 = XB2) => ((cwcel @ XA2 @ XC) => (cwcel @ XB2 @ XC))))))).
+thf(cc0_tp,type,(cc0 : ($i > $o))).
+thf(ccpr_tp,type,(ccpr : (($i > $o) > (($i > $o) > ($i > $o))))).
+thf(asnex_ax,axiom,(! [XA2:($i > $o)] : (cwcel @ (ccsn @ XA2) @ ccvv))).
+thf(ccin_tp,type,(ccin : (($i > $o) > (($i > $o) > ($i > $o))))).
+thf(ccuni_tp,type,(ccuni : (($i > $o) > ($i > $o)))).
+thf(cwss_tp,type,(cwss : (($i > $o) > (($i > $o) > $o)))).
+thf(adistop_ax,axiom,(! [XA2:($i > $o)] : (! [XV:($i > $o)] : ((cwcel @ XA2 @ XV) => (cwcel @ (ccpw @ XA2) @ cctop))))).
+thf(atgtop_ax,axiom,(! [XJ:($i > $o)] : ((cwcel @ XJ @ cctop) => ((ccfv @ XJ @ cctg) = XJ)))).
+thf(amp2an_ax,axiom,(! [Xph:$o] : (! [Xps:$o] : (! [Xch:$o] : (Xph => (Xps => (((Xph & Xps) => Xch) => Xch))))))).
+thf(cwrex_tp,type,(cwrex : (($i > $o) > (($i > ($i > $o)) > $o)))).
+thf(atopbas_ax,axiom,(! [XJ:($i > $o)] : ((cwcel @ XJ @ cctop) => (cwcel @ XJ @ cctb)))).
+thf(ampbi_ax,axiom,(! [Xph:$o] : (! [Xps:$o] : (Xph => ((Xph <=> Xps) => Xps))))).
+thf(cc1o_tp,type,(cc1o : ($i > $o))).
+thf(ccen_tp,type,(ccen : ($i > $o))).
+thf(asnfi_ax,axiom,(! [XA2:($i > $o)] : (cwcel @ (ccsn @ XA2) @ ccfn))).
+thf(ccmpt_tp,type,(ccmpt : (($i > ($i > $o)) > (($i > ($i > $o)) > ($i > $o))))).
+thf(ccsuc_tp,type,(ccsuc : (($i > $o) > ($i > $o)))).
+thf(ccun_tp,type,(ccun : (($i > $o) > (($i > $o) > ($i > $o))))).
+thf(apwfi_ax,axiom,(! [XA2:($i > $o)] : ((cwcel @ XA2 @ ccfn) <=> (cwcel @ (ccpw @ XA2) @ ccfn)))).
+thf(aisfinite_ax,axiom,(! [XA2:($i > $o)] : ((cwcel @ XA2 @ ccfn) <=> (cwbr @ XA2 @ ccom @ ccsdm)))).
+thf(asdomdom_ax,axiom,(! [XA2:($i > $o)] : (! [XB2:($i > $o)] : ((cwbr @ XA2 @ XB2 @ ccsdm) => (cwbr @ XA2 @ XB2 @ ccdom))))).
+thf(a_2ndci_ax,axiom,(! [XB2:($i > $o)] : (((cwcel @ XB2 @ cctb) & (cwbr @ XB2 @ ccom @ ccdom)) => (cwcel @ (ccfv @ XB2 @ cctg) @ cc2ndc)))).
+thf(ccrab_tp,type,(ccrab : (($i > $o) > (($i > ($i > $o)) > ($i > $o))))).
+thf(cw3a_tp,type,(cw3a : ($o > ($o > ($o > $o))))).
+thf(a_2ndc1stc_ax,axiom,(! [XJ:($i > $o)] : ((cwcel @ XJ @ cc2ndc) => (cwcel @ XJ @ cc1stc)))).
+thf(ccrest_tp,type,(ccrest : ($i > $o))).
+thf(cco_tp,type,(cco : (($i > $o) > (($i > $o) > (($i > $o) > ($i > $o)))))).
+thf(adislly_ax,axiom,(! [XA2:($i > $o)] : (! [XV:($i > $o)] : (! [XX:($i > $o)] : ((cwcel @ XX @ XV) => ((cwcel @ (ccpw @ XX) @ (cclly @ XA2)) <=> (cwral @ (^ [Xx3:$i] : (cwcel @ (ccpw @ (ccsn @ (ccv @ Xx3))) @ XA2)) @ (^ [Xx3:$i] : XX)))))))).
+thf(cwf_tp,type,(cwf : (($i > $o) > (($i > $o) > (($i > $o) > $o))))).
+thf(ccrn_tp,type,(ccrn : (($i > $o) > ($i > $o)))).
+thf(ally1stc_ax,axiom,((cclly @ cc1stc) = cc1stc)).
+thf(cdis1stc_conj,conjecture,(! [XV:($i > $o)] : (! [XX:($i > $o)] : ((cwcel @ XX @ XV) => (cwcel @ (ccpw @ XX) @ cc1stc))))).

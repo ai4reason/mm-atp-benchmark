@@ -1,0 +1,2 @@
+thf(anic_ax_thm,axiom,(! [Xph:$o] : (! [Xps:$o] : (! [Xch:$o] : (! [Xth:$o] : (! [Xta:$o] : (~ ((~ (Xph & (~ (Xch & Xps)))) & (~ ((~ (Xta & (~ (Xta & Xta)))) & (~ ((~ (Xth & Xch)) & (~ ((~ (Xph & Xth)) & (~ (Xph & Xth)))))))))))))))).
+thf(clukshef_ax1_conj,conjecture,(! [Xph:$o] : (! [Xps:$o] : (! [Xch:$o] : (! [Xth:$o] : (~ ((~ (Xph & (~ (Xch & Xps)))) & (~ ((~ (Xth & (~ (Xth & Xth)))) & (~ ((~ (Xth & Xch)) & (~ ((~ (Xph & Xth)) & (~ (Xph & Xth))))))))))))))).

@@ -1,0 +1,5 @@
+thf(cwsb_tp,type,(cwsb : (($i > $o) > ($i > $o)))).
+thf(aax_mp_ax,axiom,(! [Xph:$o] : (! [Xps:$o] : (Xph => ((Xph => Xps) => Xps))))).
+thf(afrege62b_ax,axiom,(! [Xph:($i > ($i > $o))] : (! [Xps:($i > ($i > $o))] : (! [Xx3:$i] : ((cwsb @ (^ [Xy1:$i] : (Xph @ Xx3 @ Xy1)) @ Xx3) => ((! [Xy1:$i] : ((Xph @ Xx3 @ Xy1) => (Xps @ Xx3 @ Xy1))) => (cwsb @ (^ [Xy1:$i] : (Xps @ Xx3 @ Xy1)) @ Xx3))))))).
+thf(afrege18_ax,axiom,(! [Xph:$o] : (! [Xps:$o] : (! [Xch:$o] : (! [Xth:$o] : ((Xph => (Xps => Xch)) => ((Xth => Xph) => (Xps => (Xth => Xch))))))))).
+thf(cfrege64b_conj,conjecture,(! [Xph:($i > ($i > $o))] : (! [Xps:($i > ($i > $o))] : (! [Xch:($i > ($i > $o))] : (! [Xx3:$i] : (! [Xz:$i] : (((cwsb @ (^ [Xy1:$i] : (Xph @ Xy1 @ Xz)) @ Xx3) => (cwsb @ (^ [Xy1:$i] : (Xps @ Xy1 @ Xz)) @ Xz)) => ((! [Xy1:$i] : ((Xps @ Xy1 @ Xz) => (Xch @ Xy1 @ Xz))) => ((cwsb @ (^ [Xy1:$i] : (Xph @ Xy1 @ Xz)) @ Xx3) => (cwsb @ (^ [Xy1:$i] : (Xch @ Xy1 @ Xz)) @ Xz)))))))))).

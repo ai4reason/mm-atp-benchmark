@@ -1,0 +1,3 @@
+thf(asylan_thm,axiom,(! [Xph:$o] : (! [Xps:$o] : (! [Xch:$o] : (! [Xth:$o] : ((Xph => Xps) => (((Xps & Xch) => Xth) => ((Xph & Xch) => Xth)))))))).
+thf(a_3anim123i_thm,axiom,(! [Xph:$o] : (! [Xps:$o] : (! [Xch:$o] : (! [Xth:$o] : (! [Xta:$o] : (! [Xet:$o] : ((Xph => Xps) => ((Xch => Xth) => ((Xta => Xet) => ((Xph & Xch & Xta) => (Xps & Xth & Xet)))))))))))).
+thf(csyl3anl_conj,conjecture,(! [Xph:$o] : (! [Xps:$o] : (! [Xch:$o] : (! [Xth:$o] : (! [Xta:$o] : (! [Xet:$o] : (! [Xze:$o] : (! [Xsi:$o] : ((Xph => Xps) => ((Xch => Xth) => ((Xta => Xet) => ((((Xps & Xth & Xet) & Xze) => Xsi) => (((Xph & Xch & Xta) & Xze) => Xsi)))))))))))))).

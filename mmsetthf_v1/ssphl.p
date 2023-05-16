@@ -1,0 +1,29 @@
+thf(cwceq_tp,type,(cwceq : (($i > $o) > (($i > $o) > $o)))).
+thf(ccfv_tp,type,(ccfv : (($i > $o) > (($i > $o) > ($i > $o))))).
+thf(ccss_tp,type,(ccss : ($i > $o))).
+thf(cwi_tp,type,(cwi : ($o > ($o > $o)))).
+thf(cw3a_tp,type,(cw3a : ($o > ($o > ($o > $o))))).
+thf(cwcel_tp,type,(cwcel : (($i > $o) > (($i > $o) > $o)))).
+thf(cccphlo_tp,type,(cccphlo : ($i > $o))).
+thf(cccbn_tp,type,(cccbn : ($i > $o))).
+thf(cchlo_tp,type,(cchlo : ($i > $o))).
+thf(cwa_tp,type,(cwa : ($o > ($o > $o)))).
+thf(cwb_tp,type,(cwb : ($o > ($o > $o)))).
+thf(asylanbrc_thm,axiom,(! [Xph:$o] : (! [Xps:$o] : (! [Xch:$o] : (! [Xth:$o] : ((cwi @ Xph @ Xps) => ((cwi @ Xph @ Xch) => ((cwb @ Xth @ (cwa @ Xps @ Xch)) => (cwi @ Xph @ Xth))))))))).
+thf(asimp3_thm,axiom,(! [Xph:$o] : (! [Xps:$o] : (! [Xch:$o] : (cwi @ (cw3a @ Xph @ Xps @ Xch) @ Xch))))).
+thf(a_3adant3_thm,axiom,(! [Xph:$o] : (! [Xps:$o] : (! [Xch:$o] : (! [Xth:$o] : ((cwi @ (cwa @ Xph @ Xps) @ Xch) => (cwi @ (cw3a @ Xph @ Xps @ Xth) @ Xch))))))).
+thf(ccba_tp,type,(ccba : ($i > $o))).
+thf(ccmul_tp,type,(ccmul : ($i > $o))).
+thf(ccaddc_tp,type,(ccaddc : ($i > $o))).
+thf(ccnsb_tp,type,(ccnsb : ($i > $o))).
+thf(ccexp_tp,type,(ccexp : ($i > $o))).
+thf(cc2_tp,type,(cc2 : ($i > $o))).
+thf(ccnmcv_tp,type,(ccnmcv : ($i > $o))).
+thf(ccpv_tp,type,(ccpv : ($i > $o))).
+thf(ccv_tp,type,(ccv : ($i > ($i > $o)))).
+thf(cco_tp,type,(cco : (($i > $o) > (($i > $o) > (($i > $o) > ($i > $o)))))).
+thf(cwral_tp,type,(cwral : (($i > $o) > (($i > ($i > $o)) > $o)))).
+thf(ccnv_tp,type,(ccnv : ($i > $o))).
+thf(asspph_thm,axiom,(! [XU:($i > $o)] : (! [XH:($i > $o)] : (! [XW:($i > $o)] : ((cwceq @ XH @ (ccfv @ XU @ ccss)) => (cwi @ (cwa @ (cwcel @ XU @ cccphlo) @ (cwcel @ XW @ XH)) @ (cwcel @ XW @ cccphlo))))))).
+thf(aishlo_thm,axiom,(! [XU:($i > $o)] : (cwb @ (cwcel @ XU @ cchlo) @ (cwa @ (cwcel @ XU @ cccbn) @ (cwcel @ XU @ cccphlo))))).
+thf(cssphl_conj,conjecture,(! [XU:($i > $o)] : (! [XH:($i > $o)] : (! [XW:($i > $o)] : ((cwceq @ XH @ (ccfv @ XU @ ccss)) => (cwi @ (cw3a @ (cwcel @ XU @ cccphlo) @ (cwcel @ XW @ XH) @ (cwcel @ XW @ cccbn)) @ (cwcel @ XW @ cchlo))))))).

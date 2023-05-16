@@ -1,0 +1,11 @@
+thf(cwcel_tp,type,(cwcel : (($i > $o) > (($i > $o) > $o)))).
+thf(ccnrg_tp,type,(ccnrg : ($i > $o))).
+thf(ccngp_tp,type,(ccngp : ($i > $o))).
+thf(ccfv_tp,type,(ccfv : (($i > $o) > (($i > $o) > ($i > $o))))).
+thf(ccnm_tp,type,(ccnm : ($i > $o))).
+thf(ccabv_tp,type,(ccabv : ($i > $o))).
+thf(asimplbi_ax,axiom,(! [Xph:$o] : (! [Xps:$o] : (! [Xch:$o] : ((Xph <=> (Xps & Xch)) => (Xph => Xps)))))).
+thf(ccv_tp,type,(ccv : ($i > ($i > $o)))).
+thf(aisnrg_ax,axiom,(! [XA2:($i > $o)] : (! [XR:($i > $o)] : (! [XN:($i > $o)] : ((XN = (ccfv @ XR @ ccnm)) => ((XA2 = (ccfv @ XR @ ccabv)) => ((cwcel @ XR @ ccnrg) <=> ((cwcel @ XR @ ccngp) & (cwcel @ XN @ XA2))))))))).
+thf(aeqid_ax,axiom,(! [XA2:($i > $o)] : (XA2 = XA2))).
+thf(cnrgngp_conj,conjecture,(! [XR:($i > $o)] : ((cwcel @ XR @ ccnrg) => (cwcel @ XR @ ccngp)))).

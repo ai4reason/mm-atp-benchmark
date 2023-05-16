@@ -1,0 +1,49 @@
+thf(cwcel_tp,type,(cwcel : (($i > $o) > (($i > $o) > $o)))).
+thf(ccn_tp,type,(ccn : ($i > $o))).
+thf(cco_tp,type,(cco : (($i > $o) > (($i > $o) > (($i > $o) > ($i > $o)))))).
+thf(ccneg_tp,type,(ccneg : (($i > $o) > ($i > $o)))).
+thf(cc1_tp,type,(cc1 : ($i > $o))).
+thf(cc2_tp,type,(cc2 : ($i > $o))).
+thf(ccdiv_tp,type,(ccdiv : ($i > $o))).
+thf(cccxp_tp,type,(cccxp : ($i > $o))).
+thf(ccexp_tp,type,(ccexp : ($i > $o))).
+thf(ccmul_tp,type,(ccmul : ($i > $o))).
+thf(ccc_tp,type,(ccc : ($i > $o))).
+thf(ccr_tp,type,(ccr : ($i > $o))).
+thf(ccn0_tp,type,(ccn0 : ($i > $o))).
+thf(aeqtr3d_ax,axiom,(! [Xph:$o] : (! [XA2:($i > $o)] : (! [XB2:($i > $o)] : (! [XC:($i > $o)] : ((Xph => (XA2 = XB2)) => ((Xph => (XA2 = XC)) => (Xph => (XB2 = XC))))))))).
+thf(acxpmul2d_ax,axiom,(! [Xph:$o] : (! [XA2:($i > $o)] : (! [XB2:($i > $o)] : (! [XC:($i > $o)] : ((Xph => (cwcel @ XA2 @ ccc)) => ((Xph => (cwcel @ XB2 @ ccc)) => ((Xph => (cwcel @ XC @ ccn0)) => (Xph => ((cco @ XA2 @ (cco @ XB2 @ XC @ ccmul) @ cccxp) = (cco @ (cco @ XA2 @ XB2 @ cccxp) @ XC @ ccexp))))))))))).
+thf(aa1i_ax,axiom,(! [Xph:$o] : (! [Xps:$o] : (Xph => (Xps => Xph))))).
+thf(aneg1cn_ax,axiom,(cwcel @ (ccneg @ cc1) @ ccc)).
+thf(arecnd_ax,axiom,(! [Xph:$o] : (! [XA2:($i > $o)] : ((Xph => (cwcel @ XA2 @ ccr)) => (Xph => (cwcel @ XA2 @ ccc)))))).
+thf(ampan_ax,axiom,(! [Xph:$o] : (! [Xps:$o] : (! [Xch:$o] : (Xph => (((Xph & Xps) => Xch) => (Xps => Xch))))))).
+thf(ccaddc_tp,type,(ccaddc : ($i > $o))).
+thf(a_2re_ax,axiom,(cwcel @ cc2 @ ccr)).
+thf(ccc0_tp,type,(ccc0 : ($i > $o))).
+thf(cwne_tp,type,(cwne : (($i > $o) > (($i > $o) > $o)))).
+thf(anndivre_ax,axiom,(! [XA2:($i > $o)] : (! [XN:($i > $o)] : (((cwcel @ XA2 @ ccr) & (cwcel @ XN @ ccn)) => (cwcel @ (cco @ XA2 @ XN @ ccdiv) @ ccr))))).
+thf(annnn0_ax,axiom,(! [XA2:($i > $o)] : ((cwcel @ XA2 @ ccn) => (cwcel @ XA2 @ ccn0)))).
+thf(asyl6eq_ax,axiom,(! [Xph:$o] : (! [XA2:($i > $o)] : (! [XB2:($i > $o)] : (! [XC:($i > $o)] : ((Xph => (XA2 = XB2)) => ((XB2 = XC) => (Xph => (XA2 = XC))))))))).
+thf(aoveq2d_ax,axiom,(! [Xph:$o] : (! [XA2:($i > $o)] : (! [XB2:($i > $o)] : (! [XC:($i > $o)] : (! [XF:($i > $o)] : ((Xph => (XA2 = XB2)) => (Xph => ((cco @ XC @ XA2 @ XF) = (cco @ XC @ XB2 @ XF)))))))))).
+thf(adivcan1d_ax,axiom,(! [Xph:$o] : (! [XA2:($i > $o)] : (! [XB2:($i > $o)] : ((Xph => (cwcel @ XA2 @ ccc)) => ((Xph => (cwcel @ XB2 @ ccc)) => ((Xph => (cwne @ XB2 @ ccc0)) => (Xph => ((cco @ (cco @ XA2 @ XB2 @ ccdiv) @ XB2 @ ccmul) = XA2))))))))).
+thf(a_2cnd_ax,axiom,(! [Xph:$o] : (Xph => (cwcel @ cc2 @ ccc)))).
+thf(anncn_ax,axiom,(! [XA2:($i > $o)] : ((cwcel @ XA2 @ ccn) => (cwcel @ XA2 @ ccc)))).
+thf(annne0_ax,axiom,(! [XA2:($i > $o)] : ((cwcel @ XA2 @ ccn) => (cwne @ XA2 @ ccc0)))).
+thf(a_3eqtri_ax,axiom,(! [XA2:($i > $o)] : (! [XB2:($i > $o)] : (! [XC:($i > $o)] : (! [XD:($i > $o)] : ((XA2 = XB2) => ((XB2 = XC) => ((XC = XD) => (XA2 = XD))))))))).
+thf(amp2an_ax,axiom,(! [Xph:$o] : (! [Xps:$o] : (! [Xch:$o] : (Xph => (Xps => (((Xph & Xps) => Xch) => Xch))))))).
+thf(a_2nn0_ax,axiom,(cwcel @ cc2 @ ccn0)).
+thf(ccz_tp,type,(ccz : ($i > $o))).
+thf(cce_tp,type,(cce : ($i > $o))).
+thf(cclog_tp,type,(cclog : ($i > $o))).
+thf(ccfv_tp,type,(ccfv : (($i > $o) > (($i > $o) > ($i > $o))))).
+thf(ccif_tp,type,(ccif : ($o > (($i > $o) > (($i > $o) > ($i > $o)))))).
+thf(acxpexp_ax,axiom,(! [XA2:($i > $o)] : (! [XB2:($i > $o)] : (((cwcel @ XA2 @ ccc) & (cwcel @ XB2 @ ccn0)) => ((cco @ XA2 @ XB2 @ cccxp) = (cco @ XA2 @ XB2 @ ccexp)))))).
+thf(aax_mp_ax,axiom,(! [Xph:$o] : (! [Xps:$o] : (Xph => ((Xph => Xps) => Xps))))).
+thf(ccnr_tp,type,(ccnr : ($i > $o))).
+thf(cc0r_tp,type,(cc0r : ($i > $o))).
+thf(cc1r_tp,type,(cc1r : ($i > $o))).
+thf(ccop_tp,type,(ccop : (($i > $o) > (($i > $o) > ($i > $o))))).
+thf(aax_1cn_ax,axiom,(cwcel @ cc1 @ ccc)).
+thf(asqneg_ax,axiom,(! [XA2:($i > $o)] : ((cwcel @ XA2 @ ccc) => ((cco @ (ccneg @ XA2) @ cc2 @ ccexp) = (cco @ XA2 @ cc2 @ ccexp))))).
+thf(asq1_ax,axiom,((cco @ cc1 @ cc2 @ ccexp) = cc1)).
+thf(croot1id_conj,conjecture,(! [XN:($i > $o)] : ((cwcel @ XN @ ccn) => ((cco @ (cco @ (ccneg @ cc1) @ (cco @ cc2 @ XN @ ccdiv) @ cccxp) @ XN @ ccexp) = cc1)))).

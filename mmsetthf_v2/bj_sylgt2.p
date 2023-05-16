@@ -1,0 +1,3 @@
+thf(aimp_ax,axiom,(! [Xph:$o] : (! [Xps:$o] : (! [Xch:$o] : ((Xph => (Xps => Xch)) => ((Xph & Xps) => Xch)))))).
+thf(asylgt_ax,axiom,(! [Xph:($i > $o)] : (! [Xps:($i > $o)] : (! [Xch:($i > $o)] : (! [Xx3:$i] : ((! [Xx3:$i] : ((Xps @ Xx3) => (Xch @ Xx3))) => (((Xph @ Xx3) => (! [Xx3:$i] : (Xps @ Xx3))) => ((Xph @ Xx3) => (! [Xx3:$i] : (Xch @ Xx3)))))))))).
+thf(cbj_sylgt2_conj,conjecture,(! [Xph:($i > $o)] : (! [Xps:($i > $o)] : (! [Xch:($i > $o)] : (! [Xx3:$i] : (((! [Xx3:$i] : ((Xps @ Xx3) => (Xch @ Xx3))) & ((Xph @ Xx3) => (! [Xx3:$i] : (Xps @ Xx3)))) => ((Xph @ Xx3) => (! [Xx3:$i] : (Xch @ Xx3))))))))).

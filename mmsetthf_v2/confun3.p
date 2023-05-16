@@ -1,0 +1,2 @@
+thf(aconfun_ax,axiom,(! [Xph:$o] : (! [Xps:$o] : (! [Xch:$o] : (! [Xth:$o] : (Xph => ((Xch => Xps) => ((Xch => Xth) => ((Xph => (Xph => Xps)) => (Xch => (Xth <=> Xph))))))))))).
+thf(cconfun3_conj,conjecture,(! [Xph:$o] : (! [Xps:$o] : (! [Xch:$o] : (! [Xth:$o] : ((Xph <=> (Xch => Xps)) => ((Xth <=> (~ (Xch => (Xch & (~ Xch))))) => ((Xch => Xps) => ((Xch => (~ (Xch => (Xch & (~ Xch))))) => (((Xch => Xps) => ((Xch => Xps) => Xps)) => (Xch => ((~ (Xch => (Xch & (~ Xch)))) <=> (Xch => Xps))))))))))))).

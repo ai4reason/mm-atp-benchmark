@@ -1,0 +1,10 @@
+thf(ccin_tp,type,(ccin : (($i > $o) > (($i > $o) > ($i > $o))))).
+thf(ccxp_tp,type,(ccxp : (($i > $o) > (($i > $o) > ($i > $o))))).
+thf(ccsn_tp,type,(ccsn : (($i > $o) > ($i > $o)))).
+thf(cc0_tp,type,(cc0 : ($i > $o))).
+thf(cc1o_tp,type,(cc1o : ($i > $o))).
+thf(aax_mp_ax,axiom,(! [Xph:$o] : (! [Xps:$o] : (Xph => ((Xph => Xps) => Xps))))).
+thf(anecomi_thm,axiom,(! [XA2:($i > $o)] : (! [XB2:($i > $o)] : ((XA2 != XB2) => (XB2 != XA2))))).
+thf(a_1n0_thm,axiom,(cc1o != cc0)).
+thf(axpsndisj_thm,axiom,(! [XA2:($i > $o)] : (! [XB2:($i > $o)] : (! [XC:($i > $o)] : (! [XD:($i > $o)] : ((XB2 != XD) => ((ccin @ (ccxp @ XA2 @ (ccsn @ XB2)) @ (ccxp @ XC @ (ccsn @ XD))) = cc0))))))).
+thf(cxp01disj_conj,conjecture,(! [XA2:($i > $o)] : (! [XC:($i > $o)] : ((ccin @ (ccxp @ XA2 @ (ccsn @ cc0)) @ (ccxp @ XC @ (ccsn @ cc1o))) = cc0)))).

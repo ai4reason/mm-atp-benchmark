@@ -1,0 +1,3 @@
+thf(cwxo_tp,type,(cwxo : ($o > ($o > $o)))).
+thf(amdandyvrx3_ax,axiom,(! [Xph:$o] : (! [Xps:$o] : (! [Xch:$o] : (! [Xth:$o] : (! [Xta:$o] : (! [Xet:$o] : (! [Xze:$o] : (! [Xsi:$o] : ((cwxo @ Xph @ Xze) => ((cwxo @ Xps @ Xsi) => ((Xch <=> Xps) => ((Xth <=> Xps) => ((Xta <=> Xph) => ((Xet <=> Xph) => ((((cwxo @ Xch @ Xsi) & (cwxo @ Xth @ Xsi)) & (cwxo @ Xta @ Xze)) & (cwxo @ Xet @ Xze))))))))))))))))).
+thf(cmdandyvrx12_conj,conjecture,(! [Xph:$o] : (! [Xps:$o] : (! [Xch:$o] : (! [Xth:$o] : (! [Xta:$o] : (! [Xet:$o] : (! [Xze:$o] : (! [Xsi:$o] : ((cwxo @ Xph @ Xze) => ((cwxo @ Xps @ Xsi) => ((Xch <=> Xph) => ((Xth <=> Xph) => ((Xta <=> Xps) => ((Xet <=> Xps) => ((((cwxo @ Xch @ Xze) & (cwxo @ Xth @ Xze)) & (cwxo @ Xta @ Xsi)) & (cwxo @ Xet @ Xsi))))))))))))))))).

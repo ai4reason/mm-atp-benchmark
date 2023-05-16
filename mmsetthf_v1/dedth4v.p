@@ -1,0 +1,8 @@
+thf(cwi_tp,type,(cwi : ($o > ($o > $o)))).
+thf(cwceq_tp,type,(cwceq : (($i > $o) > (($i > $o) > $o)))).
+thf(ccif_tp,type,(ccif : ($o > (($i > $o) > (($i > $o) > ($i > $o)))))).
+thf(cwb_tp,type,(cwb : ($o > ($o > $o)))).
+thf(cwa_tp,type,(cwa : ($o > ($o > $o)))).
+thf(aanidms_thm,axiom,(! [Xph:$o] : (! [Xps:$o] : ((cwi @ (cwa @ Xph @ Xph) @ Xps) => (cwi @ Xph @ Xps))))).
+thf(adedth4h_thm,axiom,(! [Xph:$o] : (! [Xps:$o] : (! [Xch:$o] : (! [Xth:$o] : (! [Xta:$o] : (! [Xet:$o] : (! [Xze:$o] : (! [Xsi:$o] : (! [Xrh:$o] : (! [XA2:($i > $o)] : (! [XB2:($i > $o)] : (! [XC:($i > $o)] : (! [XD:($i > $o)] : (! [XR:($i > $o)] : (! [XS:($i > $o)] : (! [XF:($i > $o)] : (! [XG:($i > $o)] : ((cwi @ (cwceq @ XA2 @ (ccif @ Xph @ XA2 @ XR)) @ (cwb @ Xta @ Xet)) => ((cwi @ (cwceq @ XB2 @ (ccif @ Xps @ XB2 @ XS)) @ (cwb @ Xet @ Xze)) => ((cwi @ (cwceq @ XC @ (ccif @ Xch @ XC @ XF)) @ (cwb @ Xze @ Xsi)) => ((cwi @ (cwceq @ XD @ (ccif @ Xth @ XD @ XG)) @ (cwb @ Xsi @ Xrh)) => (Xrh => (cwi @ (cwa @ (cwa @ Xph @ Xps) @ (cwa @ Xch @ Xth)) @ Xta)))))))))))))))))))))))).
+thf(cdedth4v_conj,conjecture,(! [Xph:$o] : (! [Xps:$o] : (! [Xch:$o] : (! [Xth:$o] : (! [Xta:$o] : (! [Xet:$o] : (! [XA2:($i > $o)] : (! [XB2:($i > $o)] : (! [XC:($i > $o)] : (! [XD:($i > $o)] : (! [XR:($i > $o)] : (! [XS:($i > $o)] : (! [XT:($i > $o)] : (! [XU:($i > $o)] : ((cwi @ (cwceq @ XA2 @ (ccif @ Xph @ XA2 @ XR)) @ (cwb @ Xps @ Xch)) => ((cwi @ (cwceq @ XB2 @ (ccif @ Xph @ XB2 @ XS)) @ (cwb @ Xch @ Xth)) => ((cwi @ (cwceq @ XC @ (ccif @ Xph @ XC @ XT)) @ (cwb @ Xth @ Xta)) => ((cwi @ (cwceq @ XD @ (ccif @ Xph @ XD @ XU)) @ (cwb @ Xta @ Xet)) => (Xet => (cwi @ Xph @ Xps))))))))))))))))))))).

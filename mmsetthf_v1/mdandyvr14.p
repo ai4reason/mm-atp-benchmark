@@ -1,0 +1,4 @@
+thf(cwb_tp,type,(cwb : ($o > ($o > $o)))).
+thf(cwa_tp,type,(cwa : ($o > ($o > $o)))).
+thf(amdandyvr1_thm,axiom,(! [Xph:$o] : (! [Xps:$o] : (! [Xch:$o] : (! [Xth:$o] : (! [Xta:$o] : (! [Xet:$o] : (! [Xze:$o] : (! [Xsi:$o] : ((cwb @ Xph @ Xze) => ((cwb @ Xps @ Xsi) => ((cwb @ Xch @ Xps) => ((cwb @ Xth @ Xph) => ((cwb @ Xta @ Xph) => ((cwb @ Xet @ Xph) => (cwa @ (cwa @ (cwa @ (cwb @ Xch @ Xsi) @ (cwb @ Xth @ Xze)) @ (cwb @ Xta @ Xze)) @ (cwb @ Xet @ Xze))))))))))))))))).
+thf(cmdandyvr14_conj,conjecture,(! [Xph:$o] : (! [Xps:$o] : (! [Xch:$o] : (! [Xth:$o] : (! [Xta:$o] : (! [Xet:$o] : (! [Xze:$o] : (! [Xsi:$o] : ((cwb @ Xph @ Xze) => ((cwb @ Xps @ Xsi) => ((cwb @ Xch @ Xph) => ((cwb @ Xth @ Xps) => ((cwb @ Xta @ Xps) => ((cwb @ Xet @ Xps) => (cwa @ (cwa @ (cwa @ (cwb @ Xch @ Xze) @ (cwb @ Xth @ Xsi)) @ (cwb @ Xta @ Xsi)) @ (cwb @ Xet @ Xsi))))))))))))))))).

@@ -1,0 +1,19 @@
+thf(cwcel_tp,type,(cwcel : (($i > $o) > (($i > $o) > $o)))).
+thf(cwi_tp,type,(cwi : ($o > ($o > $o)))).
+thf(cwbr_tp,type,(cwbr : (($i > $o) > (($i > $o) > (($i > $o) > $o))))).
+thf(ccun_tp,type,(ccun : (($i > $o) > (($i > $o) > ($i > $o))))).
+thf(ccfv_tp,type,(ccfv : (($i > $o) > (($i > $o) > ($i > $o))))).
+thf(cctcl_tp,type,(cctcl : ($i > $o))).
+thf(ccid_tp,type,(ccid : ($i > $o))).
+thf(cwceq_tp,type,(cwceq : (($i > $o) > (($i > $o) > $o)))).
+thf(amp2_thm,axiom,(! [Xph:$o] : (! [Xps:$o] : (! [Xch:$o] : (Xph => (Xps => ((cwi @ Xph @ (cwi @ Xps @ Xch)) => Xch))))))).
+thf(ccsb_tp,type,(ccsb : (($i > $o) > (($i > ($i > $o)) > ($i > $o))))).
+thf(cwb_tp,type,(cwb : ($o > ($o > $o)))).
+thf(ccvv_tp,type,(ccvv : ($i > $o))).
+thf(ccv_tp,type,(ccv : ($i > ($i > $o)))).
+thf(cwsbc_tp,type,(cwsbc : (($i > $o) > (($i > $o) > $o)))).
+thf(afrege92_thm,axiom,(! [XR:($i > $o)] : (! [XU:($i > $o)] : (! [XV:($i > $o)] : (! [XW:($i > $o)] : (! [XX:($i > $o)] : (! [XY:($i > $o)] : (! [XZ:($i > $o)] : ((cwcel @ XX @ XU) => ((cwcel @ XY @ XV) => ((cwcel @ XR @ XW) => (cwi @ (cwceq @ XX @ XZ) @ (cwi @ (cwbr @ XX @ XY @ XR) @ (cwbr @ XZ @ XY @ (ccfv @ XR @ cctcl))))))))))))))).
+thf(afrege96_thm,axiom,(! [XA2:($i > $o)] : (! [XR:($i > $o)] : (! [XU:($i > $o)] : (! [XV:($i > $o)] : (! [XW:($i > $o)] : (! [XX:($i > $o)] : (! [XY:($i > $o)] : (! [XZ:($i > $o)] : ((cwcel @ XX @ XU) => ((cwcel @ XY @ XV) => ((cwcel @ XZ @ XW) => ((cwcel @ XR @ XA2) => (cwi @ (cwbr @ XX @ XY @ (ccfv @ XR @ cctcl)) @ (cwi @ (cwbr @ XY @ XZ @ XR) @ (cwbr @ XX @ XZ @ (ccfv @ XR @ cctcl))))))))))))))))).
+thf(cwn_tp,type,(cwn : ($o > $o))).
+thf(afrege101_thm,axiom,(! [XR:($i > $o)] : (! [XU:($i > $o)] : (! [XV:($i > $o)] : (! [XX:($i > $o)] : (! [XZ:($i > $o)] : ((cwcel @ XZ @ XU) => (cwi @ (cwi @ (cwceq @ XZ @ XX) @ (cwi @ (cwbr @ XZ @ XV @ XR) @ (cwbr @ XX @ XV @ (ccfv @ XR @ cctcl)))) @ (cwi @ (cwi @ (cwbr @ XX @ XZ @ (ccfv @ XR @ cctcl)) @ (cwi @ (cwbr @ XZ @ XV @ XR) @ (cwbr @ XX @ XV @ (ccfv @ XR @ cctcl)))) @ (cwi @ (cwbr @ XX @ XZ @ (ccun @ (ccfv @ XR @ cctcl) @ ccid)) @ (cwi @ (cwbr @ XZ @ XV @ XR) @ (cwbr @ XX @ XV @ (ccfv @ XR @ cctcl))))))))))))).
+thf(cfrege102_conj,conjecture,(! [XA2:($i > $o)] : (! [XB2:($i > $o)] : (! [XC:($i > $o)] : (! [XD:($i > $o)] : (! [XR:($i > $o)] : (! [XV:($i > $o)] : (! [XX:($i > $o)] : (! [XZ:($i > $o)] : ((cwcel @ XX @ XA2) => ((cwcel @ XZ @ XB2) => ((cwcel @ XV @ XC) => ((cwcel @ XR @ XD) => (cwi @ (cwbr @ XX @ XZ @ (ccun @ (ccfv @ XR @ cctcl) @ ccid)) @ (cwi @ (cwbr @ XZ @ XV @ XR) @ (cwbr @ XX @ XV @ (ccfv @ XR @ cctcl))))))))))))))))).

@@ -1,0 +1,6 @@
+thf(ccseq_tp,type,(ccseq : (($i > $o) > (($i > $o) > (($i > $o) > ($i > $o)))))).
+thf(a_3eqtrd_thm,axiom,(! [Xph:$o] : (! [XA2:($i > $o)] : (! [XB2:($i > $o)] : (! [XC:($i > $o)] : (! [XD:($i > $o)] : ((Xph => (XA2 = XB2)) => ((Xph => (XB2 = XC)) => ((Xph => (XC = XD)) => (Xph => (XA2 = XD))))))))))).
+thf(aseqeq1d_thm,axiom,(! [Xph:$o] : (! [XA2:($i > $o)] : (! [XB2:($i > $o)] : (! [Xc_pl:($i > $o)] : (! [XF:($i > $o)] : ((Xph => (XA2 = XB2)) => (Xph => ((ccseq @ Xc_pl @ XF @ XA2) = (ccseq @ Xc_pl @ XF @ XB2)))))))))).
+thf(aseqeq2d_thm,axiom,(! [Xph:$o] : (! [XA2:($i > $o)] : (! [XB2:($i > $o)] : (! [XF:($i > $o)] : (! [XM:($i > $o)] : ((Xph => (XA2 = XB2)) => (Xph => ((ccseq @ XA2 @ XF @ XM) = (ccseq @ XB2 @ XF @ XM)))))))))).
+thf(aseqeq3d_thm,axiom,(! [Xph:$o] : (! [XA2:($i > $o)] : (! [XB2:($i > $o)] : (! [Xc_pl:($i > $o)] : (! [XM:($i > $o)] : ((Xph => (XA2 = XB2)) => (Xph => ((ccseq @ Xc_pl @ XA2 @ XM) = (ccseq @ Xc_pl @ XB2 @ XM)))))))))).
+thf(cseqeq123d_conj,conjecture,(! [Xph:$o] : (! [Xc_pl:($i > $o)] : (! [XQ:($i > $o)] : (! [XF:($i > $o)] : (! [XG:($i > $o)] : (! [XM:($i > $o)] : (! [XN:($i > $o)] : ((Xph => (XM = XN)) => ((Xph => (Xc_pl = XQ)) => ((Xph => (XF = XG)) => (Xph => ((ccseq @ Xc_pl @ XF @ XM) = (ccseq @ XQ @ XG @ XN)))))))))))))).

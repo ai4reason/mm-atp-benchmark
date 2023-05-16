@@ -1,0 +1,5 @@
+thf(cwvd2_tp,type,(cwvd2 : ($o > ($o > ($o > $o))))).
+thf(adfvd2ir_thm,axiom,(! [Xph:$o] : (! [Xps:$o] : (! [Xch:$o] : ((Xph => (Xps => Xch)) => (cwvd2 @ Xph @ Xps @ Xch)))))).
+thf(aalrimdh_thm,axiom,(! [Xph:($i > $o)] : (! [Xps:($i > $o)] : (! [Xch:($i > $o)] : ((! [Xx3:$i] : ((Xph @ Xx3) => (! [Xx3:$i] : (Xph @ Xx3)))) => ((! [Xx3:$i] : ((Xps @ Xx3) => (! [Xx3:$i] : (Xps @ Xx3)))) => ((! [Xx3:$i] : ((Xph @ Xx3) => ((Xps @ Xx3) => (Xch @ Xx3)))) => (! [Xx3:$i] : ((Xph @ Xx3) => ((Xps @ Xx3) => (! [Xx3:$i] : (Xch @ Xx3)))))))))))).
+thf(adfvd2i_thm,axiom,(! [Xph:$o] : (! [Xps:$o] : (! [Xch:$o] : ((cwvd2 @ Xph @ Xps @ Xch) => (Xph => (Xps => Xch))))))).
+thf(cgen21nv_conj,conjecture,(! [Xph:($i > $o)] : (! [Xps:($i > $o)] : (! [Xch:($i > $o)] : ((! [Xx3:$i] : ((Xph @ Xx3) => (! [Xx3:$i] : (Xph @ Xx3)))) => ((! [Xx3:$i] : ((Xps @ Xx3) => (! [Xx3:$i] : (Xps @ Xx3)))) => ((! [Xx3:$i] : (cwvd2 @ (Xph @ Xx3) @ (Xps @ Xx3) @ (Xch @ Xx3))) => (! [Xx3:$i] : (cwvd2 @ (Xph @ Xx3) @ (Xps @ Xx3) @ (! [Xx3:$i] : (Xch @ Xx3))))))))))).

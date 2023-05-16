@@ -1,0 +1,4 @@
+thf(amp2an_thm,axiom,(! [Xph:$o] : (! [Xps:$o] : (! [Xch:$o] : (Xph => (Xps => (((Xph & Xps) => Xch) => Xch))))))).
+thf(aax_gen_ax,axiom,(! [Xph:($i > $o)] : ((! [Xx3:$i] : (Xph @ Xx3)) => (! [Xx3:$i] : (Xph @ Xx3))))).
+thf(ahbimtg_thm,axiom,(! [Xph:($i > $o)] : (! [Xps:($i > $o)] : (! [Xch:($i > $o)] : (! [Xth:($i > $o)] : (! [Xx3:$i] : (((! [Xx3:$i] : ((Xph @ Xx3) => (! [Xx3:$i] : (Xch @ Xx3)))) & ((Xps @ Xx3) => (! [Xx3:$i] : (Xth @ Xx3)))) => (((Xch @ Xx3) => (Xps @ Xx3)) => (! [Xx3:$i] : ((Xph @ Xx3) => (Xth @ Xx3))))))))))).
+thf(chbimg_conj,conjecture,(! [Xph:($i > $o)] : (! [Xps:($i > $o)] : (! [Xch:($i > $o)] : (! [Xth:($i > $o)] : ((! [Xx3:$i] : ((Xph @ Xx3) => (! [Xx3:$i] : (Xps @ Xx3)))) => ((! [Xx3:$i] : ((Xch @ Xx3) => (! [Xx3:$i] : (Xth @ Xx3)))) => (! [Xx3:$i] : (((Xps @ Xx3) => (Xch @ Xx3)) => (! [Xx3:$i] : ((Xph @ Xx3) => (Xth @ Xx3)))))))))))).

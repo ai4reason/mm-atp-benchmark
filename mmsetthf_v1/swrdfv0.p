@@ -1,0 +1,40 @@
+thf(cwi_tp,type,(cwi : ($o > ($o > $o)))).
+thf(cw3a_tp,type,(cw3a : ($o > ($o > ($o > $o))))).
+thf(cwcel_tp,type,(cwcel : (($i > $o) > (($i > $o) > $o)))).
+thf(ccword_tp,type,(ccword : (($i > $o) > ($i > $o)))).
+thf(cco_tp,type,(cco : (($i > $o) > (($i > $o) > (($i > $o) > ($i > $o)))))).
+thf(ccc0_tp,type,(ccc0 : ($i > $o))).
+thf(ccfzo_tp,type,(ccfzo : ($i > $o))).
+thf(ccfv_tp,type,(ccfv : (($i > $o) > (($i > $o) > ($i > $o))))).
+thf(cchash_tp,type,(cchash : ($i > $o))).
+thf(ccfz_tp,type,(ccfz : ($i > $o))).
+thf(cwceq_tp,type,(cwceq : (($i > $o) > (($i > $o) > $o)))).
+thf(ccop_tp,type,(ccop : (($i > $o) > (($i > $o) > ($i > $o))))).
+thf(ccsubstr_tp,type,(ccsubstr : ($i > $o))).
+thf(ccaddc_tp,type,(ccaddc : ($i > $o))).
+thf(ccmin_tp,type,(ccmin : ($i > $o))).
+thf(ccn_tp,type,(ccn : ($i > $o))).
+thf(aeqtrd_thm,axiom,(! [Xph:$o] : (! [XA2:($i > $o)] : (! [XB2:($i > $o)] : (! [XC:($i > $o)] : ((cwi @ Xph @ (cwceq @ XA2 @ XB2)) => ((cwi @ Xph @ (cwceq @ XB2 @ XC)) => (cwi @ Xph @ (cwceq @ XA2 @ XC))))))))).
+thf(cwa_tp,type,(cwa : ($o > ($o > $o)))).
+thf(asyl2anc_thm,axiom,(! [Xph:$o] : (! [Xps:$o] : (! [Xch:$o] : (! [Xth:$o] : ((cwi @ Xph @ Xps) => ((cwi @ Xph @ Xch) => ((cwi @ (cwa @ Xps @ Xch) @ Xth) => (cwi @ Xph @ Xth))))))))).
+thf(a_3anim2i_thm,axiom,(! [Xph:$o] : (! [Xps:$o] : (! [Xch:$o] : (! [Xth:$o] : ((cwi @ Xph @ Xps) => (cwi @ (cw3a @ Xch @ Xph @ Xth) @ (cw3a @ Xch @ Xps @ Xth)))))))).
+thf(ccuz_tp,type,(ccuz : ($i > $o))).
+thf(aelfzofz_thm,axiom,(! [XK:($i > $o)] : (! [XM:($i > $o)] : (! [XN:($i > $o)] : (cwi @ (cwcel @ XK @ (cco @ XM @ XN @ ccfzo)) @ (cwcel @ XK @ (cco @ XM @ XN @ ccfz))))))).
+thf(cwb_tp,type,(cwb : ($o > ($o > $o)))).
+thf(asylibr_thm,axiom,(! [Xph:$o] : (! [Xps:$o] : (! [Xch:$o] : ((cwi @ Xph @ Xps) => ((cwb @ Xch @ Xps) => (cwi @ Xph @ Xch))))))).
+thf(a_3ad2ant2_thm,axiom,(! [Xph:$o] : (! [Xps:$o] : (! [Xch:$o] : (! [Xth:$o] : ((cwi @ Xph @ Xch) => (cwi @ (cw3a @ Xps @ Xph @ Xth) @ Xch))))))).
+thf(ccz_tp,type,(ccz : ($i > $o))).
+thf(cclt_tp,type,(cclt : ($i > $o))).
+thf(cwbr_tp,type,(cwbr : (($i > $o) > (($i > $o) > (($i > $o) > $o))))).
+thf(afzonnsub_thm,axiom,(! [XK:($i > $o)] : (! [XM:($i > $o)] : (! [XN:($i > $o)] : (cwi @ (cwcel @ XK @ (cco @ XM @ XN @ ccfzo)) @ (cwcel @ (cco @ XN @ XK @ ccmin) @ ccn)))))).
+thf(albfzo0_thm,axiom,(! [XA2:($i > $o)] : (cwb @ (cwcel @ ccc0 @ (cco @ ccc0 @ XA2 @ ccfzo)) @ (cwcel @ XA2 @ ccn)))).
+thf(ccv_tp,type,(ccv : ($i > ($i > $o)))).
+thf(ccmpt_tp,type,(ccmpt : (($i > ($i > $o)) > (($i > ($i > $o)) > ($i > $o))))).
+thf(aswrdfv_thm,axiom,(! [XA2:($i > $o)] : (! [XS:($i > $o)] : (! [XF:($i > $o)] : (! [XL:($i > $o)] : (! [XX:($i > $o)] : (cwi @ (cwa @ (cw3a @ (cwcel @ XS @ (ccword @ XA2)) @ (cwcel @ XF @ (cco @ ccc0 @ XL @ ccfz)) @ (cwcel @ XL @ (cco @ ccc0 @ (ccfv @ XS @ cchash) @ ccfz))) @ (cwcel @ XX @ (cco @ ccc0 @ (cco @ XL @ XF @ ccmin) @ ccfzo))) @ (cwceq @ (ccfv @ XX @ (cco @ XS @ (ccop @ XF @ XL) @ ccsubstr)) @ (ccfv @ (cco @ XX @ XF @ ccaddc) @ XS))))))))).
+thf(afveq2d_thm,axiom,(! [Xph:$o] : (! [XA2:($i > $o)] : (! [XB2:($i > $o)] : (! [XF:($i > $o)] : ((cwi @ Xph @ (cwceq @ XA2 @ XB2)) => (cwi @ Xph @ (cwceq @ (ccfv @ XA2 @ XF) @ (ccfv @ XB2 @ XF))))))))).
+thf(ccc_tp,type,(ccc : ($i > $o))).
+thf(aaddid2d_thm,axiom,(! [Xph:$o] : (! [XA2:($i > $o)] : ((cwi @ Xph @ (cwcel @ XA2 @ ccc)) => (cwi @ Xph @ (cwceq @ (cco @ ccc0 @ XA2 @ ccaddc) @ XA2)))))).
+thf(azcnd_thm,axiom,(! [Xph:$o] : (! [XA2:($i > $o)] : ((cwi @ Xph @ (cwcel @ XA2 @ ccz)) => (cwi @ Xph @ (cwcel @ XA2 @ ccc)))))).
+thf(ccpw_tp,type,(ccpw : (($i > $o) > ($i > $o)))).
+thf(aelfzoelz_thm,axiom,(! [XA2:($i > $o)] : (! [XB2:($i > $o)] : (! [XC:($i > $o)] : (cwi @ (cwcel @ XA2 @ (cco @ XB2 @ XC @ ccfzo)) @ (cwcel @ XA2 @ ccz)))))).
+thf(cswrdfv0_conj,conjecture,(! [XA2:($i > $o)] : (! [XS:($i > $o)] : (! [XF:($i > $o)] : (! [XL:($i > $o)] : (cwi @ (cw3a @ (cwcel @ XS @ (ccword @ XA2)) @ (cwcel @ XF @ (cco @ ccc0 @ XL @ ccfzo)) @ (cwcel @ XL @ (cco @ ccc0 @ (ccfv @ XS @ cchash) @ ccfz))) @ (cwceq @ (ccfv @ ccc0 @ (cco @ XS @ (ccop @ XF @ XL) @ ccsubstr)) @ (ccfv @ XF @ XS)))))))).

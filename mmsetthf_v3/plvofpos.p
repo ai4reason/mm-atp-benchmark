@@ -1,0 +1,5 @@
+thf(aax_mp_ax,axiom,(! [Xph:$o] : (! [Xps:$o] : (Xph => ((Xph => Xps) => Xps))))).
+thf(apm3_2i_thm,axiom,(! [Xph:$o] : (! [Xps:$o] : (Xph => (Xps => (Xph & Xps)))))).
+thf(abiimpi_thm,axiom,(! [Xph:$o] : (! [Xps:$o] : ((Xph <=> Xps) => (Xph => Xps))))).
+thf(abicomi_thm,axiom,(! [Xph:$o] : (! [Xps:$o] : ((Xph <=> Xps) => (Xps <=> Xph))))).
+thf(cplvofpos_conj,conjecture,(! [Xph:$o] : (! [Xps:$o] : (! [Xch:$o] : (! [Xth:$o] : (! [Xta:$o] : (! [Xet:$o] : (! [Xze:$o] : (! [Xsi:$o] : (! [Xrh:$o] : (! [Xmu:$o] : ((Xch <=> ((~ Xph) & (~ Xps))) => ((Xth <=> ((~ Xph) & Xps)) => ((Xta <=> (Xph & (~ Xps))) => ((Xet <=> (Xph & Xps)) => ((Xze <=> ((((((~ ((Xmu => Xch) & (Xmu => Xth))) & (~ ((Xmu => Xch) & (Xmu => Xta)))) & (~ ((Xmu => Xch) & (Xch => Xet)))) & (~ ((Xmu => Xth) & (Xmu => Xta)))) & (~ ((Xmu => Xth) & (Xmu => Xet)))) & (~ ((Xmu => Xta) & (Xmu => Xet))))) => ((Xsi <=> (((Xmu => Xch) | (Xmu => Xth)) | ((Xmu => Xta) | (Xmu => Xet)))) => ((Xrh <=> (Xze & Xsi)) => (Xze => (Xsi => Xrh)))))))))))))))))))).

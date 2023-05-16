@@ -1,0 +1,6 @@
+thf(ccif_tp,type,(ccif : ($o > (($i > $o) > (($i > $o) > ($i > $o)))))).
+thf(a_3impib_thm,axiom,(! [Xph:$o] : (! [Xps:$o] : (! [Xch:$o] : (! [Xth:$o] : ((Xph => ((Xps & Xch) => Xth)) => ((Xph & Xps & Xch) => Xth))))))).
+thf(adedth_thm,axiom,(! [Xph:$o] : (! [Xps:$o] : (! [Xch:$o] : (! [XA2:($i > $o)] : (! [XB2:($i > $o)] : (((XA2 = (ccif @ Xph @ XA2 @ XB2)) => (Xps <=> Xch)) => (Xch => (Xph => Xps))))))))).
+thf(aimbi2d_thm,axiom,(! [Xph:$o] : (! [Xps:$o] : (! [Xch:$o] : (! [Xth:$o] : ((Xph => (Xps <=> Xch)) => (Xph => ((Xth => Xps) <=> (Xth => Xch))))))))).
+thf(adedth2h_thm,axiom,(! [Xph:$o] : (! [Xps:$o] : (! [Xch:$o] : (! [Xth:$o] : (! [Xta:$o] : (! [XA2:($i > $o)] : (! [XB2:($i > $o)] : (! [XC:($i > $o)] : (! [XD:($i > $o)] : (((XA2 = (ccif @ Xph @ XA2 @ XC)) => (Xch <=> Xth)) => (((XB2 = (ccif @ Xps @ XB2 @ XD)) => (Xth <=> Xta)) => (Xta => ((Xph & Xps) => Xch)))))))))))))).
+thf(cdedth3h_conj,conjecture,(! [Xph:$o] : (! [Xps:$o] : (! [Xch:$o] : (! [Xth:$o] : (! [Xta:$o] : (! [Xet:$o] : (! [Xze:$o] : (! [XA2:($i > $o)] : (! [XB2:($i > $o)] : (! [XC:($i > $o)] : (! [XD:($i > $o)] : (! [XR:($i > $o)] : (! [XS:($i > $o)] : (((XA2 = (ccif @ Xph @ XA2 @ XD)) => (Xth <=> Xta)) => (((XB2 = (ccif @ Xps @ XB2 @ XR)) => (Xta <=> Xet)) => (((XC = (ccif @ Xch @ XC @ XS)) => (Xet <=> Xze)) => (Xze => ((Xph & Xps & Xch) => Xth))))))))))))))))))).

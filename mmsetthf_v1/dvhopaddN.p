@@ -1,0 +1,25 @@
+thf(cwceq_tp,type,(cwceq : (($i > $o) > (($i > $o) > $o)))).
+thf(ccmpt2_tp,type,(ccmpt2 : (($i > ($i > ($i > $o))) > (($i > ($i > ($i > $o))) > (($i > ($i > ($i > $o))) > ($i > $o)))))).
+thf(ccxp_tp,type,(ccxp : (($i > $o) > (($i > $o) > ($i > $o))))).
+thf(ccop_tp,type,(ccop : (($i > $o) > (($i > $o) > ($i > $o))))).
+thf(cccom_tp,type,(cccom : (($i > $o) > (($i > $o) > ($i > $o))))).
+thf(ccfv_tp,type,(ccfv : (($i > $o) > (($i > $o) > ($i > $o))))).
+thf(ccv_tp,type,(ccv : ($i > ($i > $o)))).
+thf(cc1st_tp,type,(cc1st : ($i > $o))).
+thf(cco_tp,type,(cco : (($i > $o) > (($i > $o) > (($i > $o) > ($i > $o)))))).
+thf(cc2nd_tp,type,(cc2nd : ($i > $o))).
+thf(cwi_tp,type,(cwi : ($o > ($o > $o)))).
+thf(cwa_tp,type,(cwa : ($o > ($o > $o)))).
+thf(cwcel_tp,type,(cwcel : (($i > $o) > (($i > $o) > $o)))).
+thf(aeqtrd_thm,axiom,(! [Xph:$o] : (! [XA2:($i > $o)] : (! [XB2:($i > $o)] : (! [XC:($i > $o)] : ((cwi @ Xph @ (cwceq @ XA2 @ XB2)) => ((cwi @ Xph @ (cwceq @ XB2 @ XC)) => (cwi @ Xph @ (cwceq @ XA2 @ XC))))))))).
+thf(asyl2an_thm,axiom,(! [Xph:$o] : (! [Xps:$o] : (! [Xch:$o] : (! [Xth:$o] : (! [Xta:$o] : ((cwi @ Xph @ Xps) => ((cwi @ Xta @ Xch) => ((cwi @ (cwa @ Xps @ Xch) @ Xth) => (cwi @ (cwa @ Xph @ Xta) @ Xth)))))))))).
+thf(aopelxpi_thm,axiom,(! [XA2:($i > $o)] : (! [XB2:($i > $o)] : (! [XC:($i > $o)] : (! [XD:($i > $o)] : (cwi @ (cwa @ (cwcel @ XA2 @ XC) @ (cwcel @ XB2 @ XD)) @ (cwcel @ (ccop @ XA2 @ XB2) @ (ccxp @ XC @ XD)))))))).
+thf(advhvaddval_thm,axiom,(! [Xc_pl:($i > ($i > ($i > $o)))] : (! [Xc_pd:($i > $o)] : (! [XT:($i > $o)] : (! [XE:($i > $o)] : (! [XF:($i > ($i > ($i > $o)))] : (! [XG:($i > ($i > ($i > $o)))] : ((! [Xf1:$i] : (! [Xg1:$i] : (cwceq @ (Xc_pl @ Xf1 @ Xg1) @ (ccmpt2 @ (^ [Xf1:$i] : (^ [Xg1:$i] : (ccxp @ XT @ XE))) @ (^ [Xf1:$i] : (^ [Xg1:$i] : (ccxp @ XT @ XE))) @ (^ [Xf1:$i] : (^ [Xg1:$i] : (ccop @ (cccom @ (ccfv @ (ccv @ Xf1) @ cc1st) @ (ccfv @ (ccv @ Xg1) @ cc1st)) @ (cco @ (ccfv @ (ccv @ Xf1) @ cc2nd) @ (ccfv @ (ccv @ Xg1) @ cc2nd) @ Xc_pd)))))))) => (! [Xf1:$i] : (! [Xg1:$i] : (cwi @ (cwa @ (cwcel @ (XF @ Xf1 @ Xg1) @ (ccxp @ XT @ XE)) @ (cwcel @ (XG @ Xf1 @ Xg1) @ (ccxp @ XT @ XE))) @ (cwceq @ (cco @ (XF @ Xf1 @ Xg1) @ (XG @ Xf1 @ Xg1) @ (Xc_pl @ Xf1 @ Xg1)) @ (ccop @ (cccom @ (ccfv @ (XF @ Xf1 @ Xg1) @ cc1st) @ (ccfv @ (XG @ Xf1 @ Xg1) @ cc1st)) @ (cco @ (ccfv @ (XF @ Xf1 @ Xg1) @ cc2nd) @ (ccfv @ (XG @ Xf1 @ Xg1) @ cc2nd) @ Xc_pd)))))))))))))).
+thf(aopeq12d_thm,axiom,(! [Xph:$o] : (! [XA2:($i > $o)] : (! [XB2:($i > $o)] : (! [XC:($i > $o)] : (! [XD:($i > $o)] : ((cwi @ Xph @ (cwceq @ XA2 @ XB2)) => ((cwi @ Xph @ (cwceq @ XC @ XD)) => (cwi @ Xph @ (cwceq @ (ccop @ XA2 @ XC) @ (ccop @ XB2 @ XD))))))))))).
+thf(acoeq12d_thm,axiom,(! [Xph:$o] : (! [XA2:($i > $o)] : (! [XB2:($i > $o)] : (! [XC:($i > $o)] : (! [XD:($i > $o)] : ((cwi @ Xph @ (cwceq @ XA2 @ XB2)) => ((cwi @ Xph @ (cwceq @ XC @ XD)) => (cwi @ Xph @ (cwceq @ (cccom @ XA2 @ XC) @ (cccom @ XB2 @ XD))))))))))).
+thf(aadantr_thm,axiom,(! [Xph:$o] : (! [Xps:$o] : (! [Xch:$o] : ((cwi @ Xph @ Xps) => (cwi @ (cwa @ Xph @ Xch) @ Xps)))))).
+thf(aop1stg_thm,axiom,(! [XA2:($i > $o)] : (! [XB2:($i > $o)] : (! [XV:($i > $o)] : (! [XW:($i > $o)] : (cwi @ (cwa @ (cwcel @ XA2 @ XV) @ (cwcel @ XB2 @ XW)) @ (cwceq @ (ccfv @ (ccop @ XA2 @ XB2) @ cc1st) @ XA2))))))).
+thf(aadantl_thm,axiom,(! [Xph:$o] : (! [Xps:$o] : (! [Xch:$o] : ((cwi @ Xph @ Xps) => (cwi @ (cwa @ Xch @ Xph) @ Xps)))))).
+thf(aoveqan12d_thm,axiom,(! [Xph:$o] : (! [Xps:$o] : (! [XA2:($i > $o)] : (! [XB2:($i > $o)] : (! [XC:($i > $o)] : (! [XD:($i > $o)] : (! [XF:($i > $o)] : ((cwi @ Xph @ (cwceq @ XA2 @ XB2)) => ((cwi @ Xps @ (cwceq @ XC @ XD)) => (cwi @ (cwa @ Xph @ Xps) @ (cwceq @ (cco @ XA2 @ XC @ XF) @ (cco @ XB2 @ XD @ XF))))))))))))).
+thf(aop2ndg_thm,axiom,(! [XA2:($i > $o)] : (! [XB2:($i > $o)] : (! [XV:($i > $o)] : (! [XW:($i > $o)] : (cwi @ (cwa @ (cwcel @ XA2 @ XV) @ (cwcel @ XB2 @ XW)) @ (cwceq @ (ccfv @ (ccop @ XA2 @ XB2) @ cc2nd) @ XB2))))))).
+thf(cdvhopaddN_conj,conjecture,(! [XA2:($i > ($i > ($i > $o)))] : (! [XP:($i > $o)] : (! [XT:($i > $o)] : (! [XU:($i > ($i > ($i > $o)))] : (! [XE:($i > $o)] : (! [XF:($i > ($i > ($i > $o)))] : (! [XG:($i > ($i > ($i > $o)))] : (! [XV:($i > ($i > ($i > $o)))] : ((! [Xf1:$i] : (! [Xg1:$i] : (cwceq @ (XA2 @ Xf1 @ Xg1) @ (ccmpt2 @ (^ [Xf1:$i] : (^ [Xg1:$i] : (ccxp @ XT @ XE))) @ (^ [Xf1:$i] : (^ [Xg1:$i] : (ccxp @ XT @ XE))) @ (^ [Xf1:$i] : (^ [Xg1:$i] : (ccop @ (cccom @ (ccfv @ (ccv @ Xf1) @ cc1st) @ (ccfv @ (ccv @ Xg1) @ cc1st)) @ (cco @ (ccfv @ (ccv @ Xf1) @ cc2nd) @ (ccfv @ (ccv @ Xg1) @ cc2nd) @ XP)))))))) => (! [Xf1:$i] : (! [Xg1:$i] : (cwi @ (cwa @ (cwa @ (cwcel @ (XF @ Xf1 @ Xg1) @ XT) @ (cwcel @ (XU @ Xf1 @ Xg1) @ XE)) @ (cwa @ (cwcel @ (XG @ Xf1 @ Xg1) @ XT) @ (cwcel @ (XV @ Xf1 @ Xg1) @ XE))) @ (cwceq @ (cco @ (ccop @ (XF @ Xf1 @ Xg1) @ (XU @ Xf1 @ Xg1)) @ (ccop @ (XG @ Xf1 @ Xg1) @ (XV @ Xf1 @ Xg1)) @ (XA2 @ Xf1 @ Xg1)) @ (ccop @ (cccom @ (XF @ Xf1 @ Xg1) @ (XG @ Xf1 @ Xg1)) @ (cco @ (XU @ Xf1 @ Xg1) @ (XV @ Xf1 @ Xg1) @ XP)))))))))))))))).

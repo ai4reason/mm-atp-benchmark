@@ -1,0 +1,3 @@
+thf(acom12_ax,axiom,(! [Xph:$o] : (! [Xps:$o] : (! [Xch:$o] : ((Xph => (Xps => Xch)) => (Xps => (Xph => Xch))))))).
+thf(accase_ax,axiom,(! [Xph:$o] : (! [Xps:$o] : (! [Xch:$o] : (! [Xth:$o] : (! [Xta:$o] : (((Xph & Xps) => Xta) => (((Xch & Xps) => Xta) => (((Xph & Xth) => Xta) => (((Xch & Xth) => Xta) => (((Xph | Xch) & (Xps | Xth)) => Xta))))))))))).
+thf(cccased_conj,conjecture,(! [Xph:$o] : (! [Xps:$o] : (! [Xch:$o] : (! [Xth:$o] : (! [Xta:$o] : (! [Xet:$o] : ((Xph => ((Xps & Xch) => Xet)) => ((Xph => ((Xth & Xch) => Xet)) => ((Xph => ((Xps & Xta) => Xet)) => ((Xph => ((Xth & Xta) => Xet)) => (Xph => (((Xps | Xth) & (Xch | Xta)) => Xet))))))))))))).
